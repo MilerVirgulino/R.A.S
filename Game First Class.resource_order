@@ -16,5 +16,8 @@
     {"name":"Sons","order":3,"path":"folders/Sons.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_jogo","order":1,"path":"objects/obj_jogo/obj_jogo.yy",},
+    {"name":"obj_block","order":2,"path":"objects/obj_block/obj_block.yy",},
+  ],
 }
