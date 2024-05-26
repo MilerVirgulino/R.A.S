@@ -17,7 +17,13 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"obj_jogo","order":1,"path":"objects/obj_jogo/obj_jogo.yy",},
     {"name":"obj_block","order":2,"path":"objects/obj_block/obj_block.yy",},
+    {"name":"obj_jogo","order":1,"path":"objects/obj_jogo/obj_jogo.yy",},
+    {"name":"spr_correndoC","order":5,"path":"sprites/spr_correndoC/spr_correndoC.yy",},
+    {"name":"spr_correndoF","order":4,"path":"sprites/spr_correndoF/spr_correndoF.yy",},
+    {"name":"spr_correndoL","order":3,"path":"sprites/spr_correndoL/spr_correndoL.yy",},
+    {"name":"spr_paradoC","order":6,"path":"sprites/spr_paradoC/spr_paradoC.yy",},
+    {"name":"spr_paradoL","order":2,"path":"sprites/spr_paradoL/spr_paradoL.yy",},
+    {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
   ],
 }
