@@ -1,5 +1,5 @@
 {
-  "$GMMainOptions":"",
+  "$GMMainOptions":"v1",
   "%Name":"Main",
   "name":"Main",
   "option_author":"",
@@ -10,6 +10,10 @@
   "option_gameid":"0",
   "option_game_speed":60,
   "option_mips_for_3d_textures":false,
+<<<<<<< HEAD
+=======
+  "option_remove_unused_assets":false,
+>>>>>>> 2d4dc0f53ff5d8350bdab69ee09da87f1930ae7a
   "option_sci_usesci":true,
   "option_spine_licence":false,
   "option_steam_app_id":"0",
