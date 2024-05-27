@@ -1,6 +1,7 @@
 //VARIÁVEL VELOCIDADE
-moveSpeed = 3
-xSpeed = 0
-ySpeed = 0
+hspd = 0;
+vspd = 0;
+spd = 3.0;
+move_dir = 0;
 
-move_dir = 0
+

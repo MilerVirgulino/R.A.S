@@ -1,66 +1,71 @@
-//variável de movimentação com setas e wasd
-var cima = keyboard_check(vk_up) || keyboard_check(ord("W"));
+var tecla_cima = keyboard_check(ord("W")) || keyboard_check(vk_up);
+var tecla_baixo = keyboard_check(ord("S")) || keyboard_check(vk_down);
+var tecla_direita = keyboard_check(ord("D")) ||keyboard_check(vk_right);
+var tecla_esquerda = keyboard_check(ord("A")) || keyboard_check(vk_left);
+var Tecla_cima_solta = keyboard_check_released(ord("W")) || keyboard_check_released(vk_up)
+var tecla_baixo_solta = keyboard_check_released(ord("S")) || keyboard_check_released(vk_down)
+var tecla_direita_solta = keyboard_check_released (ord("D")) || keyboard_check_released (vk_right);
+var tecla_esquerda_solta = keyboard_check_released(ord("A")) || keyboard_check_released(vk_left);
 
-var baixo = keyboard_check(vk_down) || keyboard_check(ord("S"));
+var teclas=tecla_direita-tecla_esquerda !=0	or tecla_baixo - tecla_cima !=0;
 
-var direita = keyboard_check(vk_right) || keyboard_check(ord("D"));
+move_dir = point_direction(0,0,tecla_direita - tecla_esquerda,tecla_baixo - tecla_cima)
 
-var esquerda = keyboard_check(vk_left) || keyboard_check(ord("A"));
- 
-//ação de se movimentar, se alguma variável, então sua velocidade será igual a moveSpeed negativo ou positivo.
-if cima
+hspd = lengthdir_x(spd* teclas,move_dir);
+vspd = lengthdir_y(spd* teclas,move_dir);
+
+//Sprites
 {
-	ySpeed = -moveSpeed
+if (tecla_cima){
+	sprite_index = spr_correndoC;
 }
 
-if baixo
-{
-	ySpeed = +moveSpeed
+if (Tecla_cima_solta){
+	sprite_index = spr_paradoC;
 }
 
-if direita
-{
-	xSpeed = +moveSpeed
-	image_xscale = -1
-}
-
-if esquerda
-{
-	xSpeed = -moveSpeed
+if (tecla_direita){
+	sprite_index = spr_correndoLD;
 	image_xscale = 1
 }
 
-// se não direita, não esquerda, não cima e não baixo então as velocidades são zero.
-if (!direita && !esquerda && !cima && !baixo) {
-	xSpeed = 0;
-	ySpeed = 0;
+if (tecla_direita_solta){
+	sprite_index = spr_paradoLD;
+	image_xscale = 1
 }
 
-if (!direita && !esquerda) {
-	xSpeed = 0}
-	
-if (!cima && !baixo) {
-	ySpeed = 0}
+if (tecla_esquerda){
+	sprite_index = spr_correndoLE;
+}
 
+if (tecla_esquerda_solta){
+	sprite_index = spr_paradoLE;
+}
 
+if (tecla_baixo){
+	sprite_index = spr_correndoF;
+}
 
+if (tecla_baixo_solta){
+	sprite_index = spr_parado;
+}
 
 //colisão a partir daqui
 //colisão horizontal
-if(place_meeting(x+xSpeed,y,obj_block)){
-	while(!place_meeting(x+sign(xSpeed),y,obj_block)){
-		x=x + sign(xSpeed);
+if(place_meeting(x+hspd,y,obj_block)){
+	while(!place_meeting(x+sign(hspd),y,obj_block)){
+		x=x + sign(hspd);
 	}
-	xSpeed=0
+	hspd=0
 }
 
-x+=xSpeed;
+x+=hspd;
 
-if(place_meeting(x,y+ySpeed,obj_block)){
-	while(!place_meeting(x,y+sign(ySpeed),obj_block)){
-		y=y + sign(ySpeed);
+if(place_meeting(x,y+vspd,obj_block)){
+	while(!place_meeting(x,y+sign(vspd),obj_block)){
+		y=y + sign(vspd);
 	}
-	ySpeed=0
+	vspd=0
 }
 
-y+=ySpeed;
+y+=vspd;}

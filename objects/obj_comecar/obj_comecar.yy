@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_block",
-  "eventList":[],
+  "%Name":"obj_comecar",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_block",
+  "name":"obj_comecar",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -28,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"spr_comecar",
+    "path":"sprites/spr_comecar/spr_comecar.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
