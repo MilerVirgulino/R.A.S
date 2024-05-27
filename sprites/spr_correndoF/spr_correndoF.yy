@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
   "%Name":"spr_correndoF",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":119,
   "bbox_left":41,
   "bbox_right":78,
-  "bbox_top":25,
+  "bbox_top":30,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
