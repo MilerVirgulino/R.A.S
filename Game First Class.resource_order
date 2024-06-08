@@ -17,9 +17,11 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"ob_button_parent","order":7,"path":"objects/ob_button_parent/ob_button_parent.yy",},
     {"name":"obj_block","order":2,"path":"objects/obj_block/obj_block.yy",},
+    {"name":"obj_button_play","order":8,"path":"objects/obj_button_play/obj_button_play.yy",},
+    {"name":"obj_button_quit","order":9,"path":"objects/obj_button_quit/obj_button_quit.yy",},
     {"name":"obj_camera","order":3,"path":"objects/obj_camera/obj_camera.yy",},
-    {"name":"obj_comecar","order":6,"path":"objects/obj_comecar/obj_comecar.yy",},
     {"name":"obj_floor","order":4,"path":"objects/obj_floor/obj_floor.yy",},
     {"name":"obj_jogo","order":1,"path":"objects/obj_jogo/obj_jogo.yy",},
     {"name":"obj_wall","order":5,"path":"objects/obj_wall/obj_wall.yy",},
@@ -34,6 +36,8 @@
     {"name":"spr_paradoLD","order":2,"path":"sprites/spr_paradoLD/spr_paradoLD.yy",},
     {"name":"spr_paradoLE","order":9,"path":"sprites/spr_paradoLE/spr_paradoLE.yy",},
     {"name":"spr_parede","order":8,"path":"sprites/spr_parede/spr_parede.yy",},
+    {"name":"spr_sair","order":12,"path":"sprites/spr_sair/spr_sair.yy",},
     {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
+    {"name":"Sprite14","order":13,"path":"sprites/Sprite14/Sprite14.yy",},
   ],
 }
