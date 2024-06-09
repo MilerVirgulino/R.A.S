@@ -6,6 +6,7 @@ var Tecla_cima_solta = keyboard_check_released(ord("W")) || keyboard_check_relea
 var tecla_baixo_solta = keyboard_check_released(ord("S")) || keyboard_check_released(vk_down)
 var tecla_direita_solta = keyboard_check_released (ord("D")) || keyboard_check_released (vk_right);
 var tecla_esquerda_solta = keyboard_check_released(ord("A")) || keyboard_check_released(vk_left);
+var attack = keyboard_check_pressed(ord("j"))
 
 var teclas=tecla_direita-tecla_esquerda !=0	or tecla_baixo - tecla_cima !=0;
 
@@ -69,3 +70,13 @@ if(place_meeting(x,y+vspd,obj_block)){
 }
 
 y+=vspd;}
+
+//tiro porrada e bomba
+if attack{
+	hspd=0
+	image_index = spr_topdasgalaxiasdeataque
+
+}
+
+
+
