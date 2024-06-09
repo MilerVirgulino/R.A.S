@@ -17,37 +17,37 @@ vspd = lengthdir_y(spd* teclas,move_dir);
 //Sprites
 {
 if (tecla_cima){
-	sprite_index = spr_correndoC;
+	sprite_index = spr_backwalking;
 }
 
 if (Tecla_cima_solta){
-	sprite_index = spr_paradoC;
+	sprite_index = spr_standingback;
 }
 
 if (tecla_direita){
-	sprite_index = spr_correndoLD;
+	sprite_index = spr_rightwalking;
 	image_xscale = 1
 }
 
 if (tecla_direita_solta){
-	sprite_index = spr_paradoLD;
+	sprite_index = spr_standingright;
 	image_xscale = 1
 }
 
 if (tecla_esquerda){
-	sprite_index = spr_correndoLE;
+	sprite_index = spr_leftwalking;
 }
 
 if (tecla_esquerda_solta){
-	sprite_index = spr_paradoLE;
+	sprite_index = spr_standingleft;
 }
 
 if (tecla_baixo){
-	sprite_index = spr_correndoF;
+	sprite_index = spr_frontwalk;
 }
 
 if (tecla_baixo_solta){
-	sprite_index = spr_parado;
+	sprite_index = spr_standing;
 }
 
 //colisão a partir daqui

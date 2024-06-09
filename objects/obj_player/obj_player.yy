@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_parado",
-    "path":"sprites/spr_parado/spr_parado.yy",
+    "name":"spr_standing",
+    "path":"sprites/spr_standing/spr_standing.yy",
   },
   "spriteMaskId":null,
   "visible":true,
