@@ -71,9 +71,3 @@ if(place_meeting(x,y+vspd,obj_block)){
 
 y+=vspd;}
 
-//dialogo
-if place_meeting(x, y, obj_you){
-
-	var t = instance_create_layer(x, y, layer, obj_dialoguebox);
-	t.texto = "testando 123";
-}
