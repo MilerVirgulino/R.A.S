@@ -61,8 +61,6 @@
     {"id":{"name":"spr_standingleft","path":"sprites/spr_standingleft/spr_standingleft.yy",},},
     {"id":{"name":"spr_standingright","path":"sprites/spr_standingright/spr_standingright.yy",},},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},},
-    {"id":{"name":"spr_topdasgalaxiasdeataque","path":"sprites/spr_topdasgalaxiasdeataque/spr_topdasgalaxiasdeataque.yy",},},
-    {"id":{"name":"spr_topdasgalaxiasdeataquemask","path":"sprites/spr_topdasgalaxiasdeataquemask/spr_topdasgalaxiasdeataquemask.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},},
   ],

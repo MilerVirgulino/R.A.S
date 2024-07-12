@@ -39,8 +39,6 @@
     {"name":"spr_standingleft","order":2,"path":"sprites/spr_standingleft/spr_standingleft.yy",},
     {"name":"spr_standingright","order":4,"path":"sprites/spr_standingright/spr_standingright.yy",},
     {"name":"spr_textbox","order":6,"path":"sprites/spr_textbox/spr_textbox.yy",},
-    {"name":"spr_topdasgalaxiasdeataque","order":8,"path":"sprites/spr_topdasgalaxiasdeataque/spr_topdasgalaxiasdeataque.yy",},
-    {"name":"spr_topdasgalaxiasdeataquemask","order":9,"path":"sprites/spr_topdasgalaxiasdeataquemask/spr_topdasgalaxiasdeataquemask.yy",},
     {"name":"Sprite14","order":4,"path":"sprites/Sprite14/Sprite14.yy",},
   ],
 }
