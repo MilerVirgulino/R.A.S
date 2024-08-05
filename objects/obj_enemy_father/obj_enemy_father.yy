@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy",
+  "%Name":"obj_enemy_father",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_enemy",
+  "name":"obj_enemy_father",
   "overriddenProperties":[],
   "parent":{
     "name":"Entidades",
     "path":"folders/Objetos/Entidades.yy",
   },
-  "parentObjectId":{
-    "name":"obj_enemy_father",
-    "path":"objects/obj_enemy_father/obj_enemy_father.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
+  "spriteId":null,
+  "spriteMaskId":{
     "name":"Sprite15",
     "path":"sprites/Sprite15/Sprite15.yy",
   },
-  "spriteMaskId":null,
   "visible":true,
 }
