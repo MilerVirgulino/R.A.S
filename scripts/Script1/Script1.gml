@@ -1,43 +1,38 @@
-//T
-//Iniciando o padrão de estados.
-
-
+// Os recursos de script mudaram para a v2.3.0; veja
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
 function estado() constructor
 {
-	//inicia estado
 	static inicia = function() {};
-	//roda o estado
 	static roda = function() {};
-	//Finaliza o estado
 	static finaliza = function() {};
 }
 
-//funções para o gerenciador de estados
+//iniciando estado
 
-
-//Iniciando Estado
-function inicia_estado(_estado)
+function inicia_estado (_estado)
 {
-	//PEGANDO ESTADO QUE PASSEI
 	estado_atual = _estado;
 	
-	//ativando estado que eu passei
 	estado_atual.inicia();
 }
+
 
 //rodando estado
+
 function roda_estado()
 {
-	estado_atual.roda();
+estado_atual.roda();
 }
 
-//mudando de estado
+//mudando estado
+
 function muda_estado(_estado)
 {
-	//FINALIZA ATUAL
-	estado_atual.finaliza();
-	//VAI PARA O PROXIMO
-	estado_atual = _estado;
-	//INICIA PROXIMO ESTADO
-	estado_atual.inicia();
+//finaliza
+estado_atual.finaliza();
+//vai para o próximo
+estado_atual = _estado
+//inicia proximo estado
+estado_atual.inicia();
+	
 }
