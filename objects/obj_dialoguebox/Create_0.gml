@@ -1,0 +1,1 @@
+texto = "Miler me da ponto por favor, estou morrendo de sono";
