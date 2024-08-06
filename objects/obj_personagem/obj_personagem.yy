@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_selectmulher",
+  "%Name":"obj_personagem",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_selectmulher",
+  "name":"obj_personagem",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"objetos dos personagens",
+    "path":"folders/objetos dos personagens.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_muie",
-    "path":"sprites/spr_muie/spr_muie.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -45,6 +45,7 @@
     {"id":{"name":"obj_ellena","path":"objects/obj_ellena/obj_ellena.yy",},},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
     {"id":{"name":"obj_jogo","path":"objects/obj_jogo/obj_jogo.yy",},},
+    {"id":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},},
     {"id":{"name":"obj_rodrigo","path":"objects/obj_rodrigo/obj_rodrigo.yy",},},
     {"id":{"name":"obj_selectmulher","path":"objects/obj_selectmulher/obj_selectmulher.yy",},},
     {"id":{"name":"obj_selectomi","path":"objects/obj_selectomi/obj_selectomi.yy",},},

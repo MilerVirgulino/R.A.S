@@ -23,6 +23,7 @@
     {"name":"obj_camera","order":2,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_dialogoincrivel","order":9,"path":"objects/obj_dialogoincrivel/obj_dialogoincrivel.yy",},
     {"name":"obj_floor","order":3,"path":"objects/obj_floor/obj_floor.yy",},
+    {"name":"obj_personagem","order":2,"path":"objects/obj_personagem/obj_personagem.yy",},
     {"name":"obj_rodrigo","order":1,"path":"objects/obj_rodrigo/obj_rodrigo.yy",},
     {"name":"obj_selectmulher","order":10,"path":"objects/obj_selectmulher/obj_selectmulher.yy",},
     {"name":"obj_selectomi","order":11,"path":"objects/obj_selectomi/obj_selectomi.yy",},
