@@ -1,6 +1,6 @@
-if (instance_exists(obj_player))
+if (instance_exists(obj_ellena))
 {
-	alvo = obj_player
+	alvo = obj_ellena
 }
 
 x=lerp(x,alvo.x, 0.1)

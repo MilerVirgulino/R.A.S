@@ -27,7 +27,7 @@
   "origin":4,
   "parent":{
     "name":"spr personagem fem",
-    "path":"folders/spr personagem fem.yy",
+    "path":"folders/Sprites/spr personagem fem.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
