@@ -1,5 +1,6 @@
-// Os recursos de script mudaram para a v2.3.0; veja
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
+//Obtive através de um canal do youtube pesquisando sobre estados dos inimigos.
+//Funciona para gerenciar os estados que as coisas estão; Inicia um estado, roda e finaliza ele.
+
 function estado() constructor
 {
 	static inicia = function() {};
@@ -34,5 +35,4 @@ estado_atual.finaliza();
 estado_atual = _estado
 //inicia proximo estado
 estado_atual.inicia();
-	
-}
+	}

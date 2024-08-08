@@ -9,8 +9,8 @@
   "name":"obj_enemy_father",
   "overriddenProperties":[],
   "parent":{
-    "name":"Entidades",
-    "path":"folders/Objetos/Entidades.yy",
+    "name":"Objetos inimigos",
+    "path":"folders/Objetos inimigos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,9 +31,6 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":null,
-  "spriteMaskId":{
-    "name":"Sprite15",
-    "path":"sprites/Sprite15/Sprite15.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
