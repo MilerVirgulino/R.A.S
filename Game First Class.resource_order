@@ -13,9 +13,9 @@
     {"name":"Particle Systems","order":12,"path":"folders/Particle Systems.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
     {"name":"Sons","order":2,"path":"folders/Sons.yy",},
-    {"name":"Sprite Inimigo","order":12,"path":"folders/Sprites/Sprite Inimigo.yy",},
     {"name":"spr personagem fem","order":10,"path":"folders/Sprites/spr personagem fem.yy",},
     {"name":"spr personagem man","order":11,"path":"folders/Sprites/spr personagem man.yy",},
+    {"name":"Sprite Inimigo","order":12,"path":"folders/Sprites/Sprite Inimigo.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"ob_button_parent","order":5,"path":"objects/ob_button_parent/ob_button_parent.yy",},
@@ -58,6 +58,5 @@
     {"name":"spr_textbox","order":6,"path":"sprites/spr_textbox/spr_textbox.yy",},
     {"name":"Sprite14","order":4,"path":"sprites/Sprite14/Sprite14.yy",},
     {"name":"Sprite18","order":9,"path":"sprites/Sprite18/Sprite18.yy",},
-    {"name":"Sprite27","order":16,"path":"sprites/Sprite27/Sprite27.yy",},
   ],
 }
