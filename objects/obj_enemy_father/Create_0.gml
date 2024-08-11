@@ -6,7 +6,7 @@
 estado_idle = new estado();
 estado_walk = new estado();
 estado_attack = new estado();
-
+estado_hunt = new estado();
 
 //Iniciando idle por padrão
 

@@ -9,6 +9,7 @@ tempo_estado = timer_estado;
 
 destino_x = 0;
 destino_y = 0;
+alvo = noone;
 
 
 // Inherit the parent event
@@ -16,7 +17,7 @@ event_inherited();
 
 
 //tudo após isso é sobrescrito
-
+estado_hunt = new estado();
 
 
 
@@ -43,7 +44,10 @@ if (_tempo <= 0 )
 muda_estado(estado_walk);
 }
 }
-	
+
+
+
+
 #endregion
 
 
@@ -79,12 +83,41 @@ muda_estado(estado_idle);
 	}
 
 //indo para o meu destino enquanto desvio dos colisores
-mp_linear_step_object(destino_x, destino_y, 1, obj_wall);
+mp_potential_step_object(destino_x, destino_y, 1, obj_block);
 
 }
-		
 
 
+#endregion
+
+
+#region estado_perseguição
+estado_hunt.inicia = function()
+{
+sprite_index = 	spr_enemy_walk_left
+image_index = 0
+
+image_blend = c_yellow
+}
+
+if (instance_exists(obj_ellena))
+{
+	alvo = obj_ellena.id
+}
+
+
+estado_hunt.roda = function()
+
+{
+	//se nao existe fica de boa
+	if(!instance_exists(obj_ellena))
+	{
+		alvo = noone;
+		muda_estado(estado_idle);
+	}
+	mp_potential_step_object(obj_ellena.x, obj_ellena.y, 1, obj_block);
+	
+}
 
 #endregion
 
