@@ -77,3 +77,4 @@ if keyboard_check(ord("R")){
 }
 
 //até o final da programação eu vou capotar
+//Coletáveis, Bateria, Lanterna etc.
