@@ -29,8 +29,8 @@
     {"$GMFolder":"","%Name":"Sprite Inimigo","folderPath":"folders/Sprites/Sprite Inimigo.yy","name":"Sprite Inimigo","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[
-    {"$GMIncludedFile":"","%Name":"videoplayback.mp4","CopyToMask":-1,"filePath":"datafiles","name":"videoplayback.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"nomefacil.mp4","CopyToMask":-1,"filePath":"datafiles","name":"nomefacil.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"videoplayback.mp4","CopyToMask":-1,"filePath":"datafiles","name":"videoplayback.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
