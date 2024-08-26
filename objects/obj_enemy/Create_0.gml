@@ -6,7 +6,7 @@
 //criar timer para trocar de estado
 timer_estado = game_get_speed(gamespeed_fps) * 5;
 tempo_estado = timer_estado;
-
+estado_hunt = new estado();
 destino_x = 0;
 destino_y = 0;
 alvo = noone;
@@ -17,7 +17,7 @@ event_inherited();
 
 
 //tudo após isso é sobrescrito
-estado_hunt = new estado();
+
 
 
 
@@ -92,9 +92,10 @@ mp_potential_step_object(destino_x, destino_y, 1, obj_block);
 
 
 #region estado_perseguição
+
 estado_hunt.inicia = function()
 {
-sprite_index = 	spr_enemy_walk_left
+sprite_index = 	spr_enemy
 image_index = 0
 
 image_blend = c_yellow
@@ -102,7 +103,8 @@ image_blend = c_yellow
 
 if (instance_exists(obj_ellena))
 {
-	alvo = obj_ellena.id
+	alvo = obj_ellena.id;
+	mp_potential_step_object(alvo.x, alvo.y, 1, obj_block);
 }
 
 
@@ -115,7 +117,7 @@ estado_hunt.roda = function()
 		alvo = noone;
 		muda_estado(estado_idle);
 	}
-	mp_potential_step_object(obj_ellena.x, obj_ellena.y, 1, obj_block);
+
 	
 }
 
