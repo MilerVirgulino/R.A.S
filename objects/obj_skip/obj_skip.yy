@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_camera",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_skip",
+  "eventList":[],
   "managed":true,
-  "name":"obj_camera",
+  "name":"obj_skip",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite29",
+    "path":"sprites/Sprite29/Sprite29.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

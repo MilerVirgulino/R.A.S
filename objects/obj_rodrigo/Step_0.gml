@@ -71,3 +71,10 @@ if(place_meeting(x,y+vspd,obj_block)){
 
 y+=vspd;}
 
+//Coloquei para testar a seleção, tipo uma devs room
+if keyboard_check(ord("R")){
+	room_goto(room_select)
+}
+
+//até o final da programação eu vou capotar
+//Coletáveis, Bateria, Lanterna etc.

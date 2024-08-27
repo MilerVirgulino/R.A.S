@@ -71,3 +71,6 @@ if(place_meeting(x,y+vspd,obj_block)){
 
 y+=vspd;}
 
+if keyboard_check(ord("R")){
+	room_goto(room_select)
+}
