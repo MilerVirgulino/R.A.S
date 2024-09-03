@@ -93,32 +93,24 @@ mp_potential_step_object(destino_x, destino_y, 1, obj_block);
 
 #region estado_perseguição
 
-estado_hunt.inicia = function()
-{
-sprite_index = 	spr_enemy
-image_index = 0
-
-image_blend = c_yellow
+estado_hunt.inicia = function() {
+    sprite_index = spr_enemy;
+    image_index = 0;
+    image_blend = c_yellow;
 }
 
-if (instance_exists(obj_ellena))
-{
-	alvo = obj_ellena.id;
-	mp_potential_step_object(alvo.x, alvo.y, 1, obj_block);
-}
+estado_hunt.roda = function() {
+    // Verifica se o alvo ainda existe
+    if (instance_exists(obj_personagem)) {
+        alvo = obj_personagem.id;
 
-
-estado_hunt.roda = function()
-
-{
-	//se nao existe fica de boa
-	if(!instance_exists(obj_ellena))
-	{
-		alvo = noone;
-		muda_estado(estado_idle);
-	}
-
-	
+        // Move o inimigo em direção ao alvo, evitando colisões com obj_block
+        mp_potential_step_object(alvo.x, alvo.y, 3, obj_block); // Aumente a velocidade, se necessário
+    } else {
+        // Se o alvo não existe mais, muda para o estado "idle"
+        alvo = noone;
+        muda_estado(estado_idle);
+    }
 }
 
 #endregion
