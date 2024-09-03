@@ -74,3 +74,7 @@ y+=vspd;}
 if keyboard_check(ord("R")){
 	room_goto(room_select)
 }
+// Verifica se a tecla "T" está sendo pressionada
+if (keyboard_check_pressed(ord("T"))) {
+    room_restart(); 
+}
