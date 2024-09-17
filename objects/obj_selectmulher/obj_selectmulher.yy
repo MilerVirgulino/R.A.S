@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_muie",
-    "path":"sprites/spr_muie/spr_muie.yy",
+    "name":"spr_selectellena",
+    "path":"sprites/spr_selectellena/spr_selectellena.yy",
   },
   "spriteMaskId":null,
   "visible":true,
