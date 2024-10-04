@@ -13,9 +13,9 @@
     {"name":"Particle Systems","order":12,"path":"folders/Particle Systems.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
     {"name":"Sons","order":2,"path":"folders/Sons.yy",},
-    {"name":"spr Tela de seleção","order":14,"path":"folders/Sprites/spr Tela de seleção.yy",},
     {"name":"spr personagem fem","order":9,"path":"folders/Sprites/spr personagem fem.yy",},
     {"name":"spr personagem man","order":10,"path":"folders/Sprites/spr personagem man.yy",},
+    {"name":"spr Tela de seleção","order":14,"path":"folders/Sprites/spr Tela de seleção.yy",},
     {"name":"Sprite Inimigo","order":15,"path":"folders/Sprites/Sprite Inimigo.yy",},
   ],
   "ResourceOrderSettings":[

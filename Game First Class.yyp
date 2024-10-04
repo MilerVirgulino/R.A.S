@@ -24,9 +24,9 @@
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sons","folderPath":"folders/Sons.yy","name":"Sons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"spr Tela de seleção","folderPath":"folders/Sprites/spr Tela de seleção.yy","name":"spr Tela de seleção","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr personagem fem","folderPath":"folders/Sprites/spr personagem fem.yy","name":"spr personagem fem","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr personagem man","folderPath":"folders/Sprites/spr personagem man.yy","name":"spr personagem man","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"spr Tela de seleção","folderPath":"folders/Sprites/spr Tela de seleção.yy","name":"spr Tela de seleção","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprite Inimigo","folderPath":"folders/Sprites/Sprite Inimigo.yy","name":"Sprite Inimigo","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[
@@ -36,7 +36,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Game First Class",
   "resources":[
@@ -48,7 +48,6 @@
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_cutscene","path":"objects/obj_cutscene/obj_cutscene.yy",},},
     {"id":{"name":"obj_dialogoincrivel","path":"objects/obj_dialogoincrivel/obj_dialogoincrivel.yy",},},
-    {"id":{"name":"obj_dialoguebox","path":"objects/obj_dialoguebox/obj_dialoguebox.yy",},},
     {"id":{"name":"obj_ellena","path":"objects/obj_ellena/obj_ellena.yy",},},
     {"id":{"name":"obj_enemy_father","path":"objects/obj_enemy_father/obj_enemy_father.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
