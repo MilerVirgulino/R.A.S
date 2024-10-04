@@ -7,11 +7,11 @@
   "managed":true,
   "name":"obj_button_quit",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_button_parent","path":"objects/ob_button_parent/ob_button_parent.yy",},"propertyId":{"name":"button_text","path":"objects/ob_button_parent/ob_button_parent.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Quit",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_button_parent","path":"objects/ob_button_parent/ob_button_parent.yy",},"propertyId":{"name":"button_text","path":"objects/ob_button_parent/ob_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Quit",},
   ],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Obj_menu",
+    "path":"folders/Obj_menu.yy",
   },
   "parentObjectId":{
     "name":"ob_button_parent",
