@@ -43,6 +43,7 @@
   "name":"Game First Class",
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"background","path":"objects/background/background.yy",},},
     {"id":{"name":"menu_controller","path":"objects/menu_controller/menu_controller.yy",},},
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
@@ -108,6 +109,7 @@
     {"id":{"name":"Sprite35","path":"sprites/Sprite35/Sprite35.yy",},},
     {"id":{"name":"Sprite36","path":"sprites/Sprite36/Sprite36.yy",},},
     {"id":{"name":"Sprite37","path":"sprites/Sprite37/Sprite37.yy",},},
+    {"id":{"name":"Sprite38","path":"sprites/Sprite38/Sprite38.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
