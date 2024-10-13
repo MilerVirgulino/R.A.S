@@ -1,9 +1,9 @@
 if (global.select_opc=2) {
 	var time = current_time / 1000;
-image_yscale = sine_between(time, 2.5, 3, 2.5);
-image_angle = sine_wave(time, 2, 15, 0);
+image_yscale = sine_between(time, 1, 1.04, 1.02);
+image_angle = sine_wave(time, 1, 0.9, 0);
 }
 else{
-	image_yscale = 3
+	image_yscale = 1
 	image_angle = 0
 }

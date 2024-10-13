@@ -9,8 +9,8 @@
   "name":"obj_selectmulher",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Obj_menu",
+    "path":"folders/Obj_menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_selectellena",
-    "path":"sprites/spr_selectellena/spr_selectellena.yy",
+    "name":"M_o_da_Luna",
+    "path":"sprites/M_o_da_Luna/M_o_da_Luna.yy",
   },
   "spriteMaskId":null,
   "visible":true,
