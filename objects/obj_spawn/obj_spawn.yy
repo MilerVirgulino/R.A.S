@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy_father",
+  "%Name":"obj_spawn",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_enemy_father",
+  "name":"obj_spawn",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos inimigos",
