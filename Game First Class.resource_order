@@ -41,6 +41,7 @@
     {"name":"seletor_1","order":3,"path":"objects/seletor_1/seletor_1.yy",},
     {"name":"seletor_2","order":4,"path":"objects/seletor_2/seletor_2.yy",},
     {"name":"room_9anonormal","order":5,"path":"rooms/room_9anonormal/room_9anonormal.yy",},
+    {"name":"room_corredor","order":6,"path":"rooms/room_corredor/room_corredor.yy",},
     {"name":"room_cutscene1","order":4,"path":"rooms/room_cutscene1/room_cutscene1.yy",},
     {"name":"room_cutscene2","order":3,"path":"rooms/room_cutscene2/room_cutscene2.yy",},
     {"name":"room_menu","order":1,"path":"rooms/room_menu/room_menu.yy",},
