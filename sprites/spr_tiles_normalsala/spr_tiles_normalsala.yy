@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_tiles_normalsala",
   "bboxMode":0,
-  "bbox_bottom":67,
+  "bbox_bottom":101,
   "bbox_left":0,
   "bbox_right":101,
   "bbox_top":0,
