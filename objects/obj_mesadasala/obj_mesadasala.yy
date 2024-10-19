@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pisonormal",
+  "%Name":"obj_mesadasala",
   "eventList":[],
   "managed":true,
-  "name":"obj_pisonormal",
+  "name":"obj_mesadasala",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_mundonormal",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"mesa",
+    "path":"sprites/mesa/mesa.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
