@@ -165,6 +165,10 @@ if keyboard_check(ord("R")){
 }
 
 
+//Diálogos a partir daqui
+
+
+
 
 
 

@@ -1,0 +1,1 @@
+nome = "Quadro Negro";
