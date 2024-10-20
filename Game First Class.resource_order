@@ -23,6 +23,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"background","order":5,"path":"objects/background/background.yy",},
+    {"name":"desk","order":1,"path":"objects/desk/desk.yy",},
     {"name":"menu_controller","order":2,"path":"objects/menu_controller/menu_controller.yy",},
     {"name":"obj_block","order":1,"path":"objects/obj_block/obj_block.yy",},
     {"name":"obj_camera","order":2,"path":"objects/obj_camera/obj_camera.yy",},
@@ -83,5 +84,6 @@
     {"name":"Sprite36","order":20,"path":"sprites/Sprite36/Sprite36.yy",},
     {"name":"Sprite37","order":21,"path":"sprites/Sprite37/Sprite37.yy",},
     {"name":"Sprite38","order":22,"path":"sprites/Sprite38/Sprite38.yy",},
+    {"name":"Sprite44","order":23,"path":"sprites/Sprite44/Sprite44.yy",},
   ],
 }
