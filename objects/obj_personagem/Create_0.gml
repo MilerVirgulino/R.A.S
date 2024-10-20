@@ -15,3 +15,4 @@ if(global.player==2){
 	sprite_index=spr_standingr;
 
 }
+

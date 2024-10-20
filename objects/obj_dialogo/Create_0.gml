@@ -1,6 +1,6 @@
 /// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-
-npc_nome = "";
-
-texto[0]=""
+// Inicializa as variáveis
+inicializar = true;  // Controle de inicialização
+pagina = 0;          // Controle da página do diálogo
+npc_nome = "";       // Nome do NPC
+texto = [];          // Inicializa o array de texto

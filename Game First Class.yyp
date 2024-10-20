@@ -44,6 +44,7 @@
   },
   "name":"Game First Class",
   "resources":[
+    {"id":{"name":"fnt_dialogo","path":"fonts/fnt_dialogo/fnt_dialogo.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"background","path":"objects/background/background.yy",},},
     {"id":{"name":"desk","path":"objects/desk/desk.yy",},},
@@ -53,7 +54,6 @@
     {"id":{"name":"obj_cutscene1","path":"objects/obj_cutscene1/obj_cutscene1.yy",},},
     {"id":{"name":"obj_cutscene2","path":"objects/obj_cutscene2/obj_cutscene2.yy",},},
     {"id":{"name":"obj_dialogo","path":"objects/obj_dialogo/obj_dialogo.yy",},},
-    {"id":{"name":"obj_dialogoincrivel","path":"objects/obj_dialogoincrivel/obj_dialogoincrivel.yy",},},
     {"id":{"name":"obj_ellena","path":"objects/obj_ellena/obj_ellena.yy",},},
     {"id":{"name":"obj_enemy_father","path":"objects/obj_enemy_father/obj_enemy_father.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
@@ -61,6 +61,7 @@
     {"id":{"name":"obj_jogo","path":"objects/obj_jogo/obj_jogo.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"obj_mesadasala","path":"objects/obj_mesadasala/obj_mesadasala.yy",},},
+    {"id":{"name":"obj_objetos_com_dialogo","path":"objects/obj_objetos_com_dialogo/obj_objetos_com_dialogo.yy",},},
     {"id":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},},
     {"id":{"name":"obj_quadro","path":"objects/obj_quadro/obj_quadro.yy",},},
     {"id":{"name":"obj_rodrigo","path":"objects/obj_rodrigo/obj_rodrigo.yy",},},
