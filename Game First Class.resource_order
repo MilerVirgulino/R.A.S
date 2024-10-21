@@ -12,6 +12,7 @@
     {"name":"objetos dos personagens","order":14,"path":"folders/objetos dos personagens.yy",},
     {"name":"Objetos inimigos","order":15,"path":"folders/Objetos inimigos.yy",},
     {"name":"Objetos","order":7,"path":"folders/Objetos.yy",},
+    {"name":"obj_npcs","order":11,"path":"folders/Objetos/obj_npcs.yy",},
     {"name":"obj_mundonormal","order":8,"path":"folders/Objetos/obj_mundonormal.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
     {"name":"Sons","order":2,"path":"folders/Sons.yy",},
@@ -98,5 +99,6 @@
     {"name":"Sprite47","order":26,"path":"sprites/Sprite47/Sprite47.yy",},
     {"name":"Sprite48","order":27,"path":"sprites/Sprite48/Sprite48.yy",},
     {"name":"Sprite49","order":28,"path":"sprites/Sprite49/Sprite49.yy",},
+    {"name":"Sprite50","order":29,"path":"sprites/Sprite50/Sprite50.yy",},
   ],
 }

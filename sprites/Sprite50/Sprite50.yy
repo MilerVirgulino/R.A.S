@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Sprite50",
   "bboxMode":0,
-  "bbox_bottom":0,
-  "bbox_left":0,
-  "bbox_right":0,
+  "bbox_bottom":19,
+  "bbox_left":2,
+  "bbox_right":17,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6280972b-806b-4fba-a6f5-fbd936075ebd","name":"6280972b-806b-4fba-a6f5-fbd936075ebd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"99af8218-07f1-4338-a9a6-dfbf6fd22f1d","name":"99af8218-07f1-4338-a9a6-dfbf6fd22f1d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":20,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"9f96fd04-5dff-4c23-8d33-cfc891c8bdfe","blendMode":0,"displayName":"default","isLocked":false,"name":"9f96fd04-5dff-4c23-8d33-cfc891c8bdfe","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"9d799023-a6db-4a8c-81b5-d7ce3dee7450","blendMode":0,"displayName":"default","isLocked":false,"name":"9d799023-a6db-4a8c-81b5-d7ce3dee7450","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Sprite50",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"cartas",
-    "path":"folders/Objetos/cartas.yy",
+    "name":"Game First Class",
+    "path":"Game First Class.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6280972b-806b-4fba-a6f5-fbd936075ebd","path":"sprites/Sprite50/Sprite50.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d1bbaf72-4911-46a3-88c8-6cd82adf5eb9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"99af8218-07f1-4338-a9a6-dfbf6fd22f1d","path":"sprites/Sprite50/Sprite50.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ea2f62e6-daef-4a5b-b4fc-a4835b09c8e4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":20,
 }
