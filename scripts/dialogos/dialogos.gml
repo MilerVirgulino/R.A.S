@@ -15,6 +15,15 @@ function scr_textos(npc_nome) {
             t[2] = "Melhor não mexer nisso.";
             t[3] = "Não quero me encrencar.";
             break;
+			
+		case "carta 1":
+		t[0]="Uma carta misteriosa";
+		break;
+		
+		case "Miler":
+		t[0]="Você quer ir ao banheiro?";
+		t[1]= "Vá rápido, precisamos continuar";
+		break;
 
         default:
             t[0] = "Nenhum diálogo disponível.";
