@@ -24,7 +24,6 @@
   "ResourceOrderSettings":[
     {"name":"fnt_dialogo","order":1,"path":"fonts/fnt_dialogo/fnt_dialogo.yy",},
     {"name":"background","order":5,"path":"objects/background/background.yy",},
-    {"name":"carta","order":5,"path":"objects/carta/carta.yy",},
     {"name":"desk","order":1,"path":"objects/desk/desk.yy",},
     {"name":"menu_controller","order":2,"path":"objects/menu_controller/menu_controller.yy",},
     {"name":"obj_block","order":1,"path":"objects/obj_block/obj_block.yy",},
@@ -44,7 +43,6 @@
     {"name":"obj_wall","order":4,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"obj_you","order":5,"path":"objects/obj_you/obj_you.yy",},
     {"name":"parede","order":2,"path":"objects/parede/parede.yy",},
-    {"name":"professor","order":6,"path":"objects/professor/professor.yy",},
     {"name":"rodape","order":4,"path":"objects/rodape/rodape.yy",},
     {"name":"seletor_1","order":3,"path":"objects/seletor_1/seletor_1.yy",},
     {"name":"seletor_2","order":4,"path":"objects/seletor_2/seletor_2.yy",},
@@ -96,7 +94,5 @@
     {"name":"Sprite45","order":24,"path":"sprites/Sprite45/Sprite45.yy",},
     {"name":"Sprite46","order":25,"path":"sprites/Sprite46/Sprite46.yy",},
     {"name":"Sprite47","order":26,"path":"sprites/Sprite47/Sprite47.yy",},
-    {"name":"Sprite48","order":27,"path":"sprites/Sprite48/Sprite48.yy",},
-    {"name":"Sprite49","order":28,"path":"sprites/Sprite49/Sprite49.yy",},
   ],
 }

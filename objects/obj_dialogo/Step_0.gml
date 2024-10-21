@@ -8,7 +8,7 @@ if (inicializar) {
 }
 
 if (keyboard_check_pressed(vk_enter)) {
-    if (pagina < array_length(texto) - 1 ) {
+    if (pagina < array_length(texto)-1 ) {
         pagina++;
     } else {
         
