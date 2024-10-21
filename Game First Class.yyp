@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"Game First Class",
   "resources":[
@@ -56,7 +56,6 @@
     {"id":{"name":"obj_cutscene2","path":"objects/obj_cutscene2/obj_cutscene2.yy",},},
     {"id":{"name":"obj_dialogo","path":"objects/obj_dialogo/obj_dialogo.yy",},},
     {"id":{"name":"obj_ellena","path":"objects/obj_ellena/obj_ellena.yy",},},
-    {"id":{"name":"obj_enemy_father","path":"objects/obj_enemy_father/obj_enemy_father.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
     {"id":{"name":"obj_jogo","path":"objects/obj_jogo/obj_jogo.yy",},},
