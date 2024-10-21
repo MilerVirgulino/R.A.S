@@ -1,0 +1,1 @@
+carta_texto="Você encontrou uma carta misteriosa";
