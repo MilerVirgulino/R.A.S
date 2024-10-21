@@ -165,10 +165,28 @@ if keyboard_check(ord("R")){
 }
 
 
+//Diálogos a partir daqui
+
+if (distance_to_object(obj_objetos_com_dialogo) <= 2) {
+    if (keyboard_check_pressed(vk_enter)) {
+        var npc_ = instance_nearest(x, y, obj_objetos_com_dialogo);
+        var dialogo_inst = instance_create_layer(x, y, "dialogo", obj_dialogo);
+        
+        dialogo_inst.npc_nome = npc_.nome;  // Atribuir o nome do NPC ao objeto de diálogo
+    }
+}
 
 
+//degub para mostrar o coordenadas 
+// Pega as coordenadas do mouse
+var mouse_x_coord = mouse_x;
+var mouse_y_coord = mouse_y;
 
+// Define a cor do texto
+draw_set_color(c_white);
 
+// Desenha o texto com as coordenadas do mouse na tela
+show_debug_message("Mouse X: " + string(mouse_x) + ", Mouse Y: " + string(mouse_y));
 
 
 

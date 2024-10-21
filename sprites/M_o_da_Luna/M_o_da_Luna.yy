@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Sprite Inimigo",
+    "path":"folders/Sprites/spr Tela de seleção/Sprite Inimigo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
