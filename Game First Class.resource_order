@@ -117,6 +117,7 @@
     {"name":"Sprite57","order":32,"path":"sprites/Sprite57/Sprite57.yy",},
     {"name":"Sprite58","order":33,"path":"sprites/Sprite58/Sprite58.yy",},
     {"name":"Sprite59","order":34,"path":"sprites/Sprite59/Sprite59.yy",},
+    {"name":"Sprite60","order":35,"path":"sprites/Sprite60/Sprite60.yy",},
     {"name":"tilesmundoinvertido","order":1,"path":"tilesets/tilesmundoinvertido/tilesmundoinvertido.yy",},
   ],
 }
