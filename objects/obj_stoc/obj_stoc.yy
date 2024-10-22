@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Object32",
+  "%Name":"obj_stoc",
   "eventList":[],
   "managed":true,
-  "name":"Object32",
+  "name":"obj_stoc",
   "overriddenProperties":[],
   "parent":{
-    "name":"cartas",
-    "path":"folders/Objetos/cartas.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite52",
+    "path":"sprites/Sprite52/Sprite52.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

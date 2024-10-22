@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mesadasala",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_ctos",
+  "eventList":[],
   "managed":true,
-  "name":"obj_mesadasala",
+  "name":"obj_ctos",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_mundonormal",
-    "path":"folders/Objetos/obj_mundonormal.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
-  "parentObjectId":{
-    "name":"obj_objetos_com_dialogo",
-    "path":"objects/obj_objetos_com_dialogo/obj_objetos_com_dialogo.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"mesa",
-    "path":"sprites/mesa/mesa.yy",
+    "name":"Sprite53",
+    "path":"sprites/Sprite53/Sprite53.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

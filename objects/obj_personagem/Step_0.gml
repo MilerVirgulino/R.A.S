@@ -185,7 +185,15 @@ if (distance_to_object(obj_objetos_com_dialogo) <= 1) {
     }
 }
 
+// teleportes
 
+if place_meeting (x, y, obj_stoc){
+	room_goto(room_corredor)
+}
+
+if place_meeting (x,y, obj_ctos){
+	room_goto(room_9anonormal)
+}
 
 
 

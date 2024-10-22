@@ -41,7 +41,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.1.152",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Game First Class",
   "resources":[
@@ -53,6 +53,7 @@
     {"id":{"name":"menu_controller","path":"objects/menu_controller/menu_controller.yy",},},
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
+    {"id":{"name":"obj_ctos","path":"objects/obj_ctos/obj_ctos.yy",},},
     {"id":{"name":"obj_cutscene1","path":"objects/obj_cutscene1/obj_cutscene1.yy",},},
     {"id":{"name":"obj_cutscene2","path":"objects/obj_cutscene2/obj_cutscene2.yy",},},
     {"id":{"name":"obj_dialogo","path":"objects/obj_dialogo/obj_dialogo.yy",},},
@@ -69,6 +70,7 @@
     {"id":{"name":"obj_selectmulher","path":"objects/obj_selectmulher/obj_selectmulher.yy",},},
     {"id":{"name":"obj_selectomi","path":"objects/obj_selectomi/obj_selectomi.yy",},},
     {"id":{"name":"obj_skip","path":"objects/obj_skip/obj_skip.yy",},},
+    {"id":{"name":"obj_stoc","path":"objects/obj_stoc/obj_stoc.yy",},},
     {"id":{"name":"obj_voltar","path":"objects/obj_voltar/obj_voltar.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"obj_you","path":"objects/obj_you/obj_you.yy",},},
@@ -138,6 +140,8 @@
     {"id":{"name":"Sprite48","path":"sprites/Sprite48/Sprite48.yy",},},
     {"id":{"name":"Sprite49","path":"sprites/Sprite49/Sprite49.yy",},},
     {"id":{"name":"Sprite50","path":"sprites/Sprite50/Sprite50.yy",},},
+    {"id":{"name":"Sprite52","path":"sprites/Sprite52/Sprite52.yy",},},
+    {"id":{"name":"Sprite53","path":"sprites/Sprite53/Sprite53.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
