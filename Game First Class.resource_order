@@ -53,6 +53,7 @@
     {"name":"seletor_2","order":4,"path":"objects/seletor_2/seletor_2.yy",},
     {"name":"room_9anonormal","order":5,"path":"rooms/room_9anonormal/room_9anonormal.yy",},
     {"name":"room_corredor","order":6,"path":"rooms/room_corredor/room_corredor.yy",},
+    {"name":"room_corredorminvert","order":8,"path":"rooms/room_corredorminvert/room_corredorminvert.yy",},
     {"name":"room_cutscene1","order":4,"path":"rooms/room_cutscene1/room_cutscene1.yy",},
     {"name":"room_cutscene2","order":3,"path":"rooms/room_cutscene2/room_cutscene2.yy",},
     {"name":"room_menu","order":1,"path":"rooms/room_menu/room_menu.yy",},
@@ -86,6 +87,7 @@
     {"name":"spr_standingright","order":4,"path":"sprites/spr_standingright/spr_standingright.yy",},
     {"name":"spr_standingrightr","order":7,"path":"sprites/spr_standingrightr/spr_standingrightr.yy",},
     {"name":"spr_textbox","order":5,"path":"sprites/spr_textbox/spr_textbox.yy",},
+    {"name":"spr_tiles_invert","order":1,"path":"sprites/spr_tiles_invert/spr_tiles_invert.yy",},
     {"name":"Sprite14","order":4,"path":"sprites/Sprite14/Sprite14.yy",},
     {"name":"Sprite18","order":8,"path":"sprites/Sprite18/Sprite18.yy",},
     {"name":"Sprite29","order":12,"path":"sprites/Sprite29/Sprite29.yy",},
@@ -105,5 +107,6 @@
     {"name":"Sprite50","order":29,"path":"sprites/Sprite50/Sprite50.yy",},
     {"name":"Sprite52","order":21,"path":"sprites/Sprite52/Sprite52.yy",},
     {"name":"Sprite53","order":22,"path":"sprites/Sprite53/Sprite53.yy",},
+    {"name":"tilesmundoinvertido","order":1,"path":"tilesets/tilesmundoinvertido/tilesmundoinvertido.yy",},
   ],
 }

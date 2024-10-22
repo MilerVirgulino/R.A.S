@@ -1,13 +1,13 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TileSet1",
+  "%Name":"tilesmundonormal",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TileSet1",
+  "name":"tilesmundonormal",
   "out_columns":3,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -18,10 +18,13 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_tiles_normalsala",
-    "path":"sprites/spr_tiles_normalsala/spr_tiles_normalsala.yy",
+    "name":"spr_tiles_invert",
+    "path":"sprites/spr_tiles_invert/spr_tiles_invert.yy",
   },
   "spriteNoExport":false,
+  "tags":[
+    "tilesmundonormal",
+  ],
   "textureGroupId":{
     "name":"Default",
     "path":"texturegroups/Default",

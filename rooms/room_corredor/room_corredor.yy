@@ -50,7 +50,7 @@
           -2147483648,-4,0,1,4,-12,3,1,5,-24,-2147483648,-3,0,1,4,-3,3,1,1879048199,-3,2,1,7,-4,3,1,5,-24,-2147483648,
           -4,0,-7,-2147483648,1,4,-4,3,1,5,-24,-2147483648,4,0,-2147483648,-2147483648,0,-7,-2147483648,1,4,-4,
           3,1,5,-24,-2147483648,1,0,-10,-2147483648,6,805306374,2,1073741832,1610612744,2,536870918,-64,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"tilesmundonormal","path":"tilesets/tilesmundonormal/tilesmundonormal.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"room_corredor",
