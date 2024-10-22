@@ -17,7 +17,22 @@ function scr_textos(npc_nome) {
             break;
 			
 		case "carta 1":
-			t[0]="Uma carta misteriosa";
+			t[0] = "Uma carta misteriosa...";
+			t[1] = "Não sei quanto tempo estou preso aqui.";
+			t[2] = "Semanas? Meses? Talvez anos.";
+			t[3] = "O tempo virou uma névoa em minha mente.";
+			t[4] = "Mas agora, depois de tanto, descobri uma possível saída.";
+			t[5] = "Ou ao menos, parte dela.";
+			t[6] = "Infelizmente, não acho que consiga sozinho.";
+			t[7] = "Nunca vi outro ser humano por aqui.";
+			t[8] = "Apenas sombras... e aquela criatura.";
+			t[9] = "Ela rasteja nos meus pensamentos,";
+			t[10] = "infiltra-se nos meus sonhos,";
+			t[11] = "e transforma tudo em pesadelos.";
+			t[12] = "Sei que está vindo. Posso sentir.";
+			t[13] = "Não sei quanto tempo me resta.";
+			t[14] = "Mas se você está lendo isso,";
+			t[15] = "fuja. Fuja enquanto ainda pode.";
 			break;
 		
 		case "Miler":

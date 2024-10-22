@@ -13,6 +13,7 @@
     {"name":"Objetos inimigos","order":15,"path":"folders/Objetos inimigos.yy",},
     {"name":"Objetos","order":7,"path":"folders/Objetos.yy",},
     {"name":"obj_mundonormal","order":8,"path":"folders/Objetos/obj_mundonormal.yy",},
+    {"name":"obj_mundoinvertido","order":8,"path":"folders/Objetos/obj_mundonormal/obj_mundoinvertido.yy",},
     {"name":"portas","order":7,"path":"folders/Objetos/obj_mundonormal/portas.yy",},
     {"name":"obj_npcs","order":11,"path":"folders/Objetos/obj_npcs.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
@@ -26,7 +27,7 @@
   "ResourceOrderSettings":[
     {"name":"fnt_dialogo","order":1,"path":"fonts/fnt_dialogo/fnt_dialogo.yy",},
     {"name":"background","order":5,"path":"objects/background/background.yy",},
-    {"name":"carta","order":5,"path":"objects/carta/carta.yy",},
+    {"name":"carta_1","order":1,"path":"objects/carta_1/carta_1.yy",},
     {"name":"desk","order":1,"path":"objects/desk/desk.yy",},
     {"name":"menu_controller","order":2,"path":"objects/menu_controller/menu_controller.yy",},
     {"name":"obj_block","order":1,"path":"objects/obj_block/obj_block.yy",},
@@ -118,6 +119,7 @@
     {"name":"Sprite58","order":33,"path":"sprites/Sprite58/Sprite58.yy",},
     {"name":"Sprite59","order":34,"path":"sprites/Sprite59/Sprite59.yy",},
     {"name":"Sprite60","order":35,"path":"sprites/Sprite60/Sprite60.yy",},
+    {"name":"Sprite61","order":36,"path":"sprites/Sprite61/Sprite61.yy",},
     {"name":"tilesmundoinvertido","order":1,"path":"tilesets/tilesmundoinvertido/tilesmundoinvertido.yy",},
   ],
 }

@@ -9,10 +9,13 @@
   "name":"carta_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"cartas",
-    "path":"folders/Objetos/cartas.yy",
+    "name":"obj_mundoinvertido",
+    "path":"folders/Objetos/obj_mundonormal/obj_mundoinvertido.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_objetos_com_dialogo",
+    "path":"objects/obj_objetos_com_dialogo/obj_objetos_com_dialogo.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite49",
-    "path":"sprites/Sprite49/Sprite49.yy",
+    "name":"Sprite48",
+    "path":"sprites/Sprite48/Sprite48.yy",
   },
   "spriteMaskId":null,
   "visible":true,
