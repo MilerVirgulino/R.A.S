@@ -22,8 +22,8 @@
     {"$GMFolder":"","%Name":"objetos dos personagens","folderPath":"folders/objetos dos personagens.yy","name":"objetos dos personagens","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objetos inimigos","folderPath":"folders/Objetos inimigos.yy","name":"Objetos inimigos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"obj_npcs","folderPath":"folders/Objetos/obj_npcs.yy","name":"obj_npcs","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"obj_mundonormal","folderPath":"folders/Objetos/obj_mundonormal.yy","name":"obj_mundonormal","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"obj_npcs","folderPath":"folders/Objetos/obj_npcs.yy","name":"obj_npcs","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sons","folderPath":"folders/Sons.yy","name":"Sons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -41,7 +41,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"Game First Class",
   "resources":[
@@ -109,6 +109,7 @@
     {"id":{"name":"spr_rightwalkingr","path":"sprites/spr_rightwalkingr/spr_rightwalkingr.yy",},},
     {"id":{"name":"spr_sair","path":"sprites/spr_sair/spr_sair.yy",},},
     {"id":{"name":"spr_selectellena","path":"sprites/spr_selectellena/spr_selectellena.yy",},},
+    {"id":{"name":"spr_stading_enemy","path":"sprites/spr_stading_enemy/spr_stading_enemy.yy",},},
     {"id":{"name":"spr_standing","path":"sprites/spr_standing/spr_standing.yy",},},
     {"id":{"name":"spr_standingback","path":"sprites/spr_standingback/spr_standingback.yy",},},
     {"id":{"name":"spr_standingbackr","path":"sprites/spr_standingbackr/spr_standingbackr.yy",},},
