@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_quadro",
+  "%Name":"obj_escada",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_quadro",
+  "name":"obj_escada",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_mundonormal",
-    "path":"folders/Objetos/obj_mundonormal.yy",
+    "name":"portas",
+    "path":"folders/Objetos/obj_mundonormal/portas.yy",
   },
   "parentObjectId":{
     "name":"obj_objetos_com_dialogo",
@@ -33,12 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"quadro_em_branco_9",
-    "path":"sprites/quadro_em_branco_9/quadro_em_branco_9.yy",
+    "name":"Sprite56",
+    "path":"sprites/Sprite56/Sprite56.yy",
   },
-  "spriteMaskId":{
-    "name":"quadro_em_branco_9",
-    "path":"sprites/quadro_em_branco_9/quadro_em_branco_9.yy",
-  },
-  "visible":true,
+  "spriteMaskId":null,
+  "visible":false,
 }

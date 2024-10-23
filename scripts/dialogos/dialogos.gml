@@ -73,6 +73,13 @@ function scr_textos(npc_nome) {
 			t[2]= "Não parece ser muito verídica..."
 			
 			break;
+		
+		case "escada normal":
+		t[0]="Essa escada dá acesso ao térrio";
+		t[1]="Eu só posso descer durante o intervalo";
+		t[2]="Melhor ir logo ao banheiro!";
+		t[3]="O professor pediu para não demorar...";
+		break;
 
 
 

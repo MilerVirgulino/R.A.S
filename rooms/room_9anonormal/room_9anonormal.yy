@@ -37,7 +37,6 @@
     {"name":"inst_153BBADB","path":"rooms/room_9anonormal/room_9anonormal.yy",},
     {"name":"inst_5FF07FC9","path":"rooms/room_9anonormal/room_9anonormal.yy",},
     {"name":"inst_9257220","path":"rooms/room_9anonormal/room_9anonormal.yy",},
-    {"name":"inst_6DA7F112","path":"rooms/room_9anonormal/room_9anonormal.yy",},
     {"name":"inst_1EA5670B","path":"rooms/room_9anonormal/room_9anonormal.yy",},
     {"name":"inst_139BF1AF","path":"rooms/room_9anonormal/room_9anonormal.yy",},
     {"name":"inst_55306D1C","path":"rooms/room_9anonormal/room_9anonormal.yy",},
@@ -51,6 +50,7 @@
     {"name":"inst_2BABD12C","path":"rooms/room_9anonormal/room_9anonormal.yy",},
     {"name":"inst_64926F87","path":"rooms/room_9anonormal/room_9anonormal.yy",},
     {"name":"inst_4548D681","path":"rooms/room_9anonormal/room_9anonormal.yy",},
+    {"name":"inst_6013833B","path":"rooms/room_9anonormal/room_9anonormal.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -103,7 +103,7 @@
         {"$GMRInstance":"v1","%Name":"inst_E9643BD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E9643BD","objectId":{"name":"desk","path":"objects/desk/desk.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.6,"scaleY":0.6,"x":649.0,"y":352.0,},
         {"$GMRInstance":"v1","%Name":"inst_DD259B8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_DD259B8","objectId":{"name":"desk","path":"objects/desk/desk.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.6,"scaleY":0.6,"x":651.0,"y":432.0,},
         {"$GMRInstance":"v1","%Name":"inst_334F83B6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_334F83B6","objectId":{"name":"desk","path":"objects/desk/desk.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.6,"scaleY":0.6,"x":408.0,"y":384.0,},
-        {"$GMRInstance":"v1","%Name":"inst_6DA7F112","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6DA7F112","objectId":{"name":"obj_quadro","path":"objects/obj_quadro/obj_quadro.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.2,"scaleY":0.19715099,"x":498.0,"y":68.0,},
+        {"$GMRInstance":"v1","%Name":"inst_6013833B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6013833B","objectId":{"name":"obj_quadro_2","path":"objects/obj_quadro_2/obj_quadro_2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.345,"scaleY":0.2626781,"x":461.0,"y":64.0,},
       ],"layers":[],"name":"mobilia","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_9257220","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9257220","objectId":{"name":"parede","path":"objects/parede/parede.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.8437505,"scaleY":1.765625,"x":374.0,"y":57.0,},

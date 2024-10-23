@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_quadro",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_espelho",
+  "eventList":[],
   "managed":true,
-  "name":"obj_quadro",
+  "name":"obj_espelho",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_mundonormal",
     "path":"folders/Objetos/obj_mundonormal.yy",
   },
-  "parentObjectId":{
-    "name":"obj_objetos_com_dialogo",
-    "path":"objects/obj_objetos_com_dialogo/obj_objetos_com_dialogo.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,12 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"quadro_em_branco_9",
-    "path":"sprites/quadro_em_branco_9/quadro_em_branco_9.yy",
+    "name":"Sprite75",
+    "path":"sprites/Sprite75/Sprite75.yy",
   },
-  "spriteMaskId":{
-    "name":"quadro_em_branco_9",
-    "path":"sprites/quadro_em_branco_9/quadro_em_branco_9.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
