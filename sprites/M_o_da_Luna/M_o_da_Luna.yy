@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Sprite Inimigo",
-    "path":"folders/Sprites/spr Tela de seleção/Sprite Inimigo.yy",
+    "path":"folders/Sprites/Sprite Inimigo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -32,7 +32,7 @@
     {"$GMFolder":"","%Name":"spr personagem fem","folderPath":"folders/Sprites/spr personagem fem.yy","name":"spr personagem fem","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr personagem man","folderPath":"folders/Sprites/spr personagem man.yy","name":"spr personagem man","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr Tela de seleção","folderPath":"folders/Sprites/spr Tela de seleção.yy","name":"spr Tela de seleção","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Sprite Inimigo","folderPath":"folders/Sprites/spr Tela de seleção/Sprite Inimigo.yy","name":"Sprite Inimigo","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sprite Inimigo","folderPath":"folders/Sprites/Sprite Inimigo.yy","name":"Sprite Inimigo","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_tiles","folderPath":"folders/Sprites/spr_tiles.yy","name":"spr_tiles","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[
@@ -80,6 +80,7 @@
     {"id":{"name":"obj_skip","path":"objects/obj_skip/obj_skip.yy",},},
     {"id":{"name":"obj_stoc","path":"objects/obj_stoc/obj_stoc.yy",},},
     {"id":{"name":"obj_tptoinvert","path":"objects/obj_tptoinvert/obj_tptoinvert.yy",},},
+    {"id":{"name":"obj_trigger","path":"objects/obj_trigger/obj_trigger.yy",},},
     {"id":{"name":"obj_voltar","path":"objects/obj_voltar/obj_voltar.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"obj_you","path":"objects/obj_you/obj_you.yy",},},

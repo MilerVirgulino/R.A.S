@@ -45,8 +45,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"spr personagem fem",
-    "path":"folders/Sprites/spr personagem fem.yy",
+    "name":"Sprite Inimigo",
+    "path":"folders/Sprites/Sprite Inimigo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
