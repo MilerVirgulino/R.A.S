@@ -29,8 +29,8 @@
   ],
   "name":"room_menu",
   "parent":{
-    "name":"Cenas",
-    "path":"folders/Cenas.yy",
+    "name":"rooms_normais",
+    "path":"folders/rooms_normais.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

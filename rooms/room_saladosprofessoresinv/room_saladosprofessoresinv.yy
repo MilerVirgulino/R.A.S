@@ -19,8 +19,8 @@
   ],
   "name":"room_saladosprofessoresinv",
   "parent":{
-    "name":"Cenas",
-    "path":"folders/Cenas.yy",
+    "name":"rooms_invertidas",
+    "path":"folders/rooms_invertidas.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -1,4 +1,3 @@
-
 if (global.player == 1) {
 
 	

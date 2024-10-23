@@ -10,8 +10,8 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"Caminhos","folderPath":"folders/Caminhos.yy","name":"Caminhos","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Cenas","folderPath":"folders/Cenas.yy","name":"Cenas","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"rooms_invertidas","folderPath":"folders/rooms_invertidas.yy","name":"rooms_invertidas","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"rooms_normais","folderPath":"folders/rooms_normais.yy","name":"rooms_normais","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Conjuntos de tiles","folderPath":"folders/Conjuntos de tiles.yy","name":"Conjuntos de tiles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensões","folderPath":"folders/Extensões.yy","name":"Extensões","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fontes","folderPath":"folders/Fontes.yy","name":"Fontes","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -84,7 +84,6 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"obj_you","path":"objects/obj_you/obj_you.yy",},},
     {"id":{"name":"Object31","path":"objects/Object31/Object31.yy",},},
-    {"id":{"name":"Object41","path":"objects/Object41/Object41.yy",},},
     {"id":{"name":"parede","path":"objects/parede/parede.yy",},},
     {"id":{"name":"professor","path":"objects/professor/professor.yy",},},
     {"id":{"name":"rodape","path":"objects/rodape/rodape.yy",},},

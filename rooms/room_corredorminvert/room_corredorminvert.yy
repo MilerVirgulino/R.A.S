@@ -59,8 +59,8 @@
   ],
   "name":"room_corredorminvert",
   "parent":{
-    "name":"Cenas",
-    "path":"folders/Cenas.yy",
+    "name":"rooms_invertidas",
+    "path":"folders/rooms_invertidas.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
