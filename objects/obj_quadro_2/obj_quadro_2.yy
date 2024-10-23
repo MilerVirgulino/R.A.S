@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_quadro",
+  "%Name":"obj_quadro_2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_quadro",
+  "name":"obj_quadro_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_mundonormal",
-    "path":"folders/Objetos/obj_mundonormal.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":{
     "name":"obj_objetos_com_dialogo",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"quadro_em_branco",
-    "path":"sprites/quadro_em_branco/quadro_em_branco.yy",
+    "name":"Sprite46",
+    "path":"sprites/Sprite46/Sprite46.yy",
   },
   "spriteMaskId":null,
   "visible":true,
