@@ -87,6 +87,7 @@
     {"id":{"name":"rodape","path":"objects/rodape/rodape.yy",},},
     {"id":{"name":"seletor_1","path":"objects/seletor_1/seletor_1.yy",},},
     {"id":{"name":"seletor_2","path":"objects/seletor_2/seletor_2.yy",},},
+    {"id":{"name":"room_9anoinvertido","path":"rooms/room_9anoinvertido/room_9anoinvertido.yy",},},
     {"id":{"name":"room_9anonormal","path":"rooms/room_9anonormal/room_9anonormal.yy",},},
     {"id":{"name":"room_corredor","path":"rooms/room_corredor/room_corredor.yy",},},
     {"id":{"name":"room_corredorminvert","path":"rooms/room_corredorminvert/room_corredorminvert.yy",},},
@@ -172,6 +173,7 @@
     {"roomId":{"name":"room_9anonormal","path":"rooms/room_9anonormal/room_9anonormal.yy",},},
     {"roomId":{"name":"room_corredor","path":"rooms/room_corredor/room_corredor.yy",},},
     {"roomId":{"name":"room_corredorminvert","path":"rooms/room_corredorminvert/room_corredorminvert.yy",},},
+    {"roomId":{"name":"room_9anoinvertido","path":"rooms/room_9anoinvertido/room_9anoinvertido.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

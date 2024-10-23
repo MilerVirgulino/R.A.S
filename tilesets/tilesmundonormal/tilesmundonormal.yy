@@ -3,9 +3,10 @@
   "%Name":"tilesmundonormal",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":4,
+    "SerialiseWidth":6,
+    "TileCompressedData":[-20,0,-4,3,],
+    "TileDataFormat":1,
   },
   "name":"tilesmundonormal",
   "out_columns":3,
