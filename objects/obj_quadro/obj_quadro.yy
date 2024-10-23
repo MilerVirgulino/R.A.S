@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"quadro_em_branco",
-    "path":"sprites/quadro_em_branco/quadro_em_branco.yy",
+    "name":"Sprite46",
+    "path":"sprites/Sprite46/Sprite46.yy",
   },
   "spriteMaskId":null,
   "visible":true,
