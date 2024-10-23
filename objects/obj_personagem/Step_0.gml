@@ -195,5 +195,6 @@ if place_meeting (x,y, obj_ctos){
 	room_goto(room_9anonormal)
 }
 
-
-
+if place_meeting(x,y, obj_tptoinvert){
+	room_goto(room_corredorminvert)
+}
