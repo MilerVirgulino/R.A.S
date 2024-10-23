@@ -96,6 +96,7 @@
     {"id":{"name":"room_9anonormal","path":"rooms/room_9anonormal/room_9anonormal.yy",},},
     {"id":{"name":"room_9anonormalinvert","path":"rooms/room_9anonormalinvert/room_9anonormalinvert.yy",},},
     {"id":{"name":"room_corredor","path":"rooms/room_corredor/room_corredor.yy",},},
+    {"id":{"name":"room_corredorinverprincipal","path":"rooms/room_corredorinverprincipal/room_corredorinverprincipal.yy",},},
     {"id":{"name":"room_corredorminvert","path":"rooms/room_corredorminvert/room_corredorminvert.yy",},},
     {"id":{"name":"room_cutscene1","path":"rooms/room_cutscene1/room_cutscene1.yy",},},
     {"id":{"name":"room_cutscene2","path":"rooms/room_cutscene2/room_cutscene2.yy",},},
@@ -188,6 +189,7 @@
     {"roomId":{"name":"room_7anoinv","path":"rooms/room_7anoinv/room_7anoinv.yy",},},
     {"roomId":{"name":"room_6anoinv","path":"rooms/room_6anoinv/room_6anoinv.yy",},},
     {"roomId":{"name":"room_9anonormalinvert","path":"rooms/room_9anonormalinvert/room_9anonormalinvert.yy",},},
+    {"roomId":{"name":"room_corredorinverprincipal","path":"rooms/room_corredorinverprincipal/room_corredorinverprincipal.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -65,6 +65,7 @@
     {"name":"room_9anonormal","order":5,"path":"rooms/room_9anonormal/room_9anonormal.yy",},
     {"name":"room_9anonormalinvert","order":6,"path":"rooms/room_9anonormalinvert/room_9anonormalinvert.yy",},
     {"name":"room_corredor","order":6,"path":"rooms/room_corredor/room_corredor.yy",},
+    {"name":"room_corredorinverprincipal","order":7,"path":"rooms/room_corredorinverprincipal/room_corredorinverprincipal.yy",},
     {"name":"room_corredorminvert","order":5,"path":"rooms/room_corredorminvert/room_corredorminvert.yy",},
     {"name":"room_cutscene1","order":4,"path":"rooms/room_cutscene1/room_cutscene1.yy",},
     {"name":"room_cutscene2","order":3,"path":"rooms/room_cutscene2/room_cutscene2.yy",},
