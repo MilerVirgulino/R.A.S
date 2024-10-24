@@ -6,8 +6,8 @@
   "name":"obj_ctos",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"portas",
+    "path":"folders/Objetos/obj_mundonormal/portas.yy",
   },
   "parentObjectId":null,
   "persistent":false,

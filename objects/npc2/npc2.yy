@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"npcs",
-    "path":"folders/Objetos/obj_mundonormal/portas/npcs.yy",
+    "path":"folders/Objetos/obj_mundonormal/npcs.yy",
   },
   "parentObjectId":null,
   "persistent":false,
