@@ -259,3 +259,11 @@ if place_meeting(x,y, obj_cto8){
 if place_meeting(x,y, obj_ctoprofessor){
 	room_goto(room_saladosprofessoresinv)
 }
+
+if place_meeting(x,y, obj_1serietoc){
+	room_goto(room_1EMinvertido)
+}
+
+if place_meeting(x,y, obj_cto1serie){
+	room_goto(room_corredorinverprincipal)
+}
