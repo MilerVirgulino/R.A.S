@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_cto6",
+  "%Name":"obj_mundonormaltoinvert",
   "eventList":[],
   "managed":true,
-  "name":"obj_cto6",
+  "name":"obj_mundonormaltoinvert",
   "overriddenProperties":[],
   "parent":{
     "name":"portas",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite53",
-    "path":"sprites/Sprite53/Sprite53.yy",
+    "name":"Sprite76",
+    "path":"sprites/Sprite76/Sprite76.yy",
   },
   "spriteMaskId":null,
   "visible":true,

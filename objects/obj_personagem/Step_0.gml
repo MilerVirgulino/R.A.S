@@ -267,3 +267,6 @@ if place_meeting(x,y, obj_1serietoc){
 if place_meeting(x,y, obj_cto1serie){
 	room_goto(room_corredorinverprincipal)
 }
+if place_meeting(x,y, obj_mundonormaltoinvert){
+	room_goto(room_corredorminvert)
+}
