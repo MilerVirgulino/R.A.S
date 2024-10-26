@@ -252,6 +252,10 @@ if place_meeting(x,y, obj_cto7){
 	room_goto(room_7anoinv)
 }
 
+if place_meeting(x,y, obj_7toc){
+	room_goto(room_corredorinverprincipal)
+}
+
 if place_meeting(x,y, obj_cto8){
 	room_goto(room_8anoinv)
 }
