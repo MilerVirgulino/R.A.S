@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_inicial",
+  "%Name":"obj_cutespelho",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_inicial",
+  "name":"obj_cutespelho",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obj_cutscene",
-    "path":"folders/Obj_cutscene.yy",
+    "name":"cutscene espelho",
+    "path":"folders/cutscene espelho.yy",
   },
   "parentObjectId":null,
   "persistent":false,
