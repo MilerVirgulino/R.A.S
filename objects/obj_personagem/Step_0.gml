@@ -56,23 +56,25 @@ if (tecla_baixo_solta){
 
 //colisão a partir daqui
 //colisão horizontal
-if(place_meeting(x+hspd,y,obj_block)){
-	while(!place_meeting(x+sign(hspd),y,obj_block)){
-		x=x + sign(hspd);
-	}
-	hspd=0
+if (place_meeting(x + hspd, y, obj_block) || place_meeting(x + hspd, y, obj_falecomprofessor)) {
+        while (!place_meeting(x + sign(hspd), y, obj_block) && 
+               !place_meeting(x + sign(hspd), y, obj_falecomprofessor)) {
+            x += sign(hspd);
+        }
+        hspd = 0;
+    }
+    x += hspd;
+
+    // Colisões Verticais
+    if (place_meeting(x, y + vspd, obj_block) || place_meeting(x, y + vspd, obj_falecomprofessor)) {
+        while (!place_meeting(x, y + sign(vspd), obj_block) && 
+               !place_meeting(x, y + sign(vspd), obj_falecomprofessor)) {
+            y += sign(vspd);
+        }
+        vspd = 0;
+    }
+    y += vspd;
 }
-
-x+=hspd;
-
-if(place_meeting(x,y+vspd,obj_block)){
-	while(!place_meeting(x,y+sign(vspd),obj_block)){
-		y=y + sign(vspd);
-	}
-	vspd=0
-}
-
-y+=vspd;}
 
 if keyboard_check(ord("R")){
 	room_goto(room_select)
@@ -173,23 +175,25 @@ if (tecla_baixo_solta){
 
 //colisão a partir daqui
 //colisão horizontal
-if(place_meeting(x+hspd,y,obj_block)){
-	while(!place_meeting(x+sign(hspd),y,obj_block)){
-		x=x + sign(hspd);
-	}
-	hspd=0
+if (place_meeting(x + hspd, y, obj_block) || place_meeting(x + hspd, y, obj_falecomprofessor)) {
+        while (!place_meeting(x + sign(hspd), y, obj_block) && 
+               !place_meeting(x + sign(hspd), y, obj_falecomprofessor)) {
+            x += sign(hspd);
+        }
+        hspd = 0;
+    }
+    x += hspd;
+
+    // Colisões Verticais
+    if (place_meeting(x, y + vspd, obj_block) || place_meeting(x, y + vspd, obj_falecomprofessor)) {
+        while (!place_meeting(x, y + sign(vspd), obj_block) && 
+               !place_meeting(x, y + sign(vspd), obj_falecomprofessor)) {
+            y += sign(vspd);
+        }
+        vspd = 0;
+    }
+    y += vspd;
 }
-
-x+=hspd;
-
-if(place_meeting(x,y+vspd,obj_block)){
-	while(!place_meeting(x,y+sign(vspd),obj_block)){
-		y=y + sign(vspd);
-	}
-	vspd=0
-}
-
-y+=vspd;}
 
 //Coloquei para testar a seleção, tipo uma devs room
 if keyboard_check(ord("R")){
@@ -276,3 +280,6 @@ if place_meeting(x,y, obj_mundonormaltoinvert){
 	room_goto(room_corredorminvert)
 }
 
+if place_meeting(x,y, obj_cutprofessora){
+	room_goto(room_cutscene2)
+}
