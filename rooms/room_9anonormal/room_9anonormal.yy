@@ -39,7 +39,6 @@
     {"name":"inst_9257220","path":"rooms/room_9anonormal/room_9anonormal.yy",},
     {"name":"inst_1EA5670B","path":"rooms/room_9anonormal/room_9anonormal.yy",},
     {"name":"inst_139BF1AF","path":"rooms/room_9anonormal/room_9anonormal.yy",},
-    {"name":"inst_55306D1C","path":"rooms/room_9anonormal/room_9anonormal.yy",},
     {"name":"inst_1BE8345F","path":"rooms/room_9anonormal/room_9anonormal.yy",},
     {"name":"inst_201F813","path":"rooms/room_9anonormal/room_9anonormal.yy",},
     {"name":"inst_22321A05","path":"rooms/room_9anonormal/room_9anonormal.yy",},
@@ -51,6 +50,8 @@
     {"name":"inst_64926F87","path":"rooms/room_9anonormal/room_9anonormal.yy",},
     {"name":"inst_4548D681","path":"rooms/room_9anonormal/room_9anonormal.yy",},
     {"name":"inst_6013833B","path":"rooms/room_9anonormal/room_9anonormal.yy",},
+    {"name":"inst_2611F175","path":"rooms/room_9anonormal/room_9anonormal.yy",},
+    {"name":"inst_34C977C5","path":"rooms/room_9anonormal/room_9anonormal.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -76,8 +77,9 @@
         {"$GMRInstance":"v1","%Name":"inst_2F5D74","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2F5D74","objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.21875,"x":512.0,"y":433.0,},
         {"$GMRInstance":"v1","%Name":"inst_153BBADB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_153BBADB","objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.21875,"x":583.0,"y":434.0,},
         {"$GMRInstance":"v1","%Name":"inst_5FF07FC9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5FF07FC9","objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.21875,"x":652.0,"y":432.0,},
-        {"$GMRInstance":"v1","%Name":"inst_55306D1C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_55306D1C","objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.21874999,"scaleY":0.5,"x":679.0,"y":151.0,},
         {"$GMRInstance":"v1","%Name":"inst_201F813","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_201F813","objectId":{"name":"obj_stoc","path":"objects/obj_stoc/obj_stoc.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.53125,"scaleY":0.203125,"x":442.0,"y":468.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2611F175","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2611F175","objectId":{"name":"obj_cutprofessora","path":"objects/obj_cutprofessora/obj_cutprofessora.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.75000006,"scaleY":1.015625,"x":654.0,"y":146.0,},
+        {"$GMRInstance":"v1","%Name":"inst_34C977C5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_34C977C5","objectId":{"name":"obj_falecomprofessor","path":"objects/obj_falecomprofessor/obj_falecomprofessor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":160.0,},
       ],"layers":[],"name":"colisoes","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"entidades","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_790D7FD7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_790D7FD7","objectId":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":458.0,"y":418.0,},
