@@ -135,6 +135,7 @@
     {"id":{"name":"room_corredorminvert","path":"rooms/room_corredorminvert/room_corredorminvert.yy",},},
     {"id":{"name":"room_cutscene1","path":"rooms/room_cutscene1/room_cutscene1.yy",},},
     {"id":{"name":"room_cutscene2","path":"rooms/room_cutscene2/room_cutscene2.yy",},},
+    {"id":{"name":"room_cutscene3","path":"rooms/room_cutscene3/room_cutscene3.yy",},},
     {"id":{"name":"room_game","path":"rooms/room_game/room_game.yy",},},
     {"id":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},},
     {"id":{"name":"room_saladosprofessoresinv","path":"rooms/room_saladosprofessoresinv/room_saladosprofessoresinv.yy",},},
@@ -241,6 +242,7 @@
     {"roomId":{"name":"room_corredorinverprincipal","path":"rooms/room_corredorinverprincipal/room_corredorinverprincipal.yy",},},
     {"roomId":{"name":"room_7anoinv","path":"rooms/room_7anoinv/room_7anoinv.yy",},},
     {"roomId":{"name":"room_8anoinv","path":"rooms/room_8anoinv/room_8anoinv.yy",},},
+    {"roomId":{"name":"room_cutscene3","path":"rooms/room_cutscene3/room_cutscene3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

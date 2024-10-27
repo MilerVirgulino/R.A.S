@@ -97,6 +97,7 @@
     {"name":"room_corredorminvert","order":5,"path":"rooms/room_corredorminvert/room_corredorminvert.yy",},
     {"name":"room_cutscene1","order":4,"path":"rooms/room_cutscene1/room_cutscene1.yy",},
     {"name":"room_cutscene2","order":3,"path":"rooms/room_cutscene2/room_cutscene2.yy",},
+    {"name":"room_cutscene3","order":7,"path":"rooms/room_cutscene3/room_cutscene3.yy",},
     {"name":"room_menu","order":1,"path":"rooms/room_menu/room_menu.yy",},
     {"name":"room_saladosprofessoresinv","order":4,"path":"rooms/room_saladosprofessoresinv/room_saladosprofessoresinv.yy",},
     {"name":"room_select","order":2,"path":"rooms/room_select/room_select.yy",},

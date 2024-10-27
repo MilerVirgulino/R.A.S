@@ -23,6 +23,6 @@ if (mover) {
 
     // Verifica colisão com o personagem
     if (place_meeting(x, y, obj_personagem)) {
-        room_goto(room_game); // Envia para a próxima sala
+        room_goto(room_cutscene3)
     }
 }
