@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_trigger",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_trocaglobal",
+  "eventList":[],
   "managed":true,
-  "name":"obj_trigger",
+  "name":"obj_trocaglobal",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos inimigos",
-    "path":"folders/Objetos inimigos.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -34,5 +32,5 @@
     "path":"sprites/Sprite56/Sprite56.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

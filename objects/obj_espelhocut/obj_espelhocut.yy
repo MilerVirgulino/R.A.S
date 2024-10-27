@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_trigger",
+  "%Name":"obj_espelhocut",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_trigger",
+  "name":"obj_espelhocut",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos inimigos",
-    "path":"folders/Objetos inimigos.yy",
+    "name":"cutscene espelho",
+    "path":"folders/cutscene espelho.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite56",
-    "path":"sprites/Sprite56/Sprite56.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

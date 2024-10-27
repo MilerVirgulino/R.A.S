@@ -16,3 +16,4 @@ if(global.player==2){
 
 }
 
+global.parede = 0

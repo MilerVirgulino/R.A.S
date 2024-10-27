@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_trigger",
+  "%Name":"obj_vocenaopassara",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_trigger",
+  "name":"obj_vocenaopassara",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos inimigos",
-    "path":"folders/Objetos inimigos.yy",
+    "name":"portas",
+    "path":"folders/Objetos/portas.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_block",
+    "path":"objects/obj_block/obj_block.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,11 +31,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"Sprite56",
-    "path":"sprites/Sprite56/Sprite56.yy",
+    "name":"spr_floor",
+    "path":"sprites/spr_floor/spr_floor.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

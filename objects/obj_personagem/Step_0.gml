@@ -106,17 +106,6 @@ if (distance_to_object(obj_objetos_com_dialogo) <= 0.05) {
 
 // teleportes
 
-if place_meeting (x, y, obj_stoc){
-	room_goto(room_corredor)
-}
-
-if place_meeting (x,y, obj_ctos){
-	room_goto(room_9anonormal)
-}
-
-if place_meeting(x,y, obj_tptoinvert){
-	room_goto(room_corredorminvert)
-}
 
 }
 
@@ -260,6 +249,10 @@ if place_meeting(x,y, obj_cto8){
 	room_goto(room_8anoinv)
 }
 
+if place_meeting(x,y, obj_8toc){
+	room_goto(room_corredorinverprincipal)
+}
+
 if place_meeting(x,y, obj_ctoprofessor){
 	room_goto(room_saladosprofessoresinv)
 }
@@ -280,3 +273,17 @@ if place_meeting(x,y, obj_cutprofessora){
 	global.professor = 1
 	room_goto(room_cutscene2)
 }
+
+// interação com a bateria do peugeot
+if place_meeting(x,y, obj_bateriadopeugeot){
+	if (keyboard_check_pressed(vk_enter)){
+		global.parede = true;
+		instance_destroy(obj_vocenaopassara)
+		show_debug_message("ativado");
+		instance_destroy(obj_bateriadopeugeot)
+	}
+}
+	
+	
+	
+	

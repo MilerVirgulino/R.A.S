@@ -1,18 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_jumpscare",
+  "%Name":"obj_bateriadopeugeot",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_jumpscare",
+  "name":"obj_bateriadopeugeot",
   "overriddenProperties":[],
   "parent":{
-    "name":"Jumpscare",
-    "path":"folders/Jumpscare.yy",
+    "name":"obj_mundoinvertido",
+    "path":"folders/Objetos/obj_mundonormal/obj_mundoinvertido.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_bateriadopeugeot",
+    "path":"sprites/spr_bateriadopeugeot/spr_bateriadopeugeot.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
