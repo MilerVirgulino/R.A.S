@@ -1,3 +1,7 @@
+/// @description Inserir descrição aqui
+// Você pode escrever seu código neste editor
+
+
 // Pega a largura e altura da tela
 var _guil = display_get_width();
 var _guia = display_get_height();

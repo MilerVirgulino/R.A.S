@@ -1,5 +1,3 @@
-// Evento Create do obj_dialogo
-texto = ""; // Texto a ser exibido
-if (carta_texto != undefined) {
-    texto = carta_texto; // Atribui o texto da carta passada
-}
+npc_atual = "preludio";  // Escolha o NPC
+dialogo_textos = scr_textos(npc_atual);  // Armazena os textos do NPC
+indice_texto = 0;  // Controlador do texto atual

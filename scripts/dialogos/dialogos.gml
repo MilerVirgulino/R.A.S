@@ -3,6 +3,19 @@ function scr_textos(npc_nome) {
     var t = [];  // Inicializa um array para armazenar os textos
 
     switch (npc_nome) {
+		
+		case "preludio":
+			t[0] = "Ouvi dizer que aquela família fazia rituais estranhos...";
+			t[1] = "É assustador saber que eles foram encontrados mortos.";
+			t[2] = "E agora a escola comprou aquele espelho antigo?";
+			t[3] = "Eu não consigo parar de pensar nisso.";
+			t[4] = "Isso me tira o sono todas as noites";
+			t[5] = "Se eu continuar sonolento assim, vou acabar me encrencando"
+			t[6] = "Talvez seja melhor pedir ao professor para ir ao banheiro.";
+			t[7] = "Jogar uma água no rosto deve me ajudar ficar acordado.";
+
+			break
+			
         case "Quadro Negro":
             t[0] = "O quadro mostra um exercício"
 			t[1]= "Um bloco que desce uma rampa com atrito...";
@@ -88,6 +101,14 @@ function scr_textos(npc_nome) {
 		case "9ano":
 		t[0]="Tenho que ir ao banheiro";
 		break;
+		
+		case "personagem":
+	    t[0] = "VOCÊ - - Com licença, professora...";
+	    t[1] = "VOCÊ - - Eu poderia ir ao banheiro?";
+		t[2] = "PROFESSORA - - Claro, mas não demore";
+		t[3] = "PROFESSORA - - Temos muito que ver ainda";
+	    break;
+
 
 
 
