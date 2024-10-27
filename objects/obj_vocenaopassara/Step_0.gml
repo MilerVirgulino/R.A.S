@@ -1,3 +1,3 @@
-if global.parede = 1{
+if global.parede = true{
 	instance_destroy()
 }

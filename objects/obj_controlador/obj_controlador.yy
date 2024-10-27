@@ -12,10 +12,7 @@
     "name":"Objetos",
     "path":"folders/Objetos.yy",
   },
-  "parentObjectId":{
-    "name":"obj_bateriadopeugeot",
-    "path":"objects/obj_bateriadopeugeot/obj_bateriadopeugeot.yy",
-  },
+  "parentObjectId":null,
   "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

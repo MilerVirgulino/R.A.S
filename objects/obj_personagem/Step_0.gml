@@ -274,16 +274,19 @@ if place_meeting(x,y, obj_cutprofessora){
 	room_goto(room_cutscene2)
 }
 
+global.parede=false;
+
 // interação com a bateria do peugeot
-if place_meeting(x,y, obj_bateriadopeugeot){
-	if (keyboard_check_pressed(vk_enter)){
-		global.parede = true;
-		instance_destroy(obj_vocenaopassara)
-		show_debug_message("ativado");
-		instance_destroy(obj_bateriadopeugeot)
-	}
+// Personagem - Evento Step
+if (place_meeting(x, y, obj_bateriadopeugeot)) {
+    if (keyboard_check_pressed(vk_enter)) {
+        global.parede = true;
+        show_debug_message("Interagiu com obj_bateriadopeugeot");
+
+        instance_destroy(obj_bateriadopeugeot); // Destruir objeto após interação
+    }
 }
-	
+
 	
 	
 	
