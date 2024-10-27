@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_ctos",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_ctos",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"portas",
     "path":"folders/Objetos/portas.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_objetos_com_dialogo",
+    "path":"objects/obj_objetos_com_dialogo/obj_objetos_com_dialogo.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

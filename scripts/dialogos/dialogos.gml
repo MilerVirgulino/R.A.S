@@ -80,6 +80,14 @@ function scr_textos(npc_nome) {
 		t[2]="Melhor ir logo ao banheiro!";
 		t[3]="O professor pediu para não demorar...";
 		break;
+		
+		case "pare":
+		t[0]="Deveria falar com a professora antes";
+		break;
+		
+		case "9ano":
+		t[0]="Tenho que ir ao banheiro";
+		break;
 
 
 

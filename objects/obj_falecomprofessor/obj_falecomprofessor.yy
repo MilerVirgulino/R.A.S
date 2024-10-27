@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"obj_falecomprofessor",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_falecomprofessor",
   "overriddenProperties":[],
@@ -9,7 +12,10 @@
     "name":"portas",
     "path":"folders/Objetos/portas.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_objetos_com_dialogo",
+    "path":"objects/obj_objetos_com_dialogo/obj_objetos_com_dialogo.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -37,5 +43,5 @@
     "path":"sprites/Sprite53/Sprite53.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -228,10 +228,6 @@ if place_meeting (x, y, obj_stoc){
 	room_goto(room_corredor)
 }
 
-if place_meeting (x,y, obj_ctos){
-	room_goto(room_9anonormal)
-}
-
 if place_meeting(x,y, obj_tptoinvert){
 	room_goto(room_corredorminvert)
 }
@@ -281,5 +277,6 @@ if place_meeting(x,y, obj_mundonormaltoinvert){
 }
 
 if place_meeting(x,y, obj_cutprofessora){
+	global.professor = 1
 	room_goto(room_cutscene2)
 }

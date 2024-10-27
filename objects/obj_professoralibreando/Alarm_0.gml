@@ -1,1 +1,1 @@
-room_goto(room_corredorminvert)
+room_goto(room_corredor)
