@@ -1,8 +1,2 @@
-// Objeto: obj_controlador - Evento Create
-global.parede = false;
-persistent = true;
-global.chave=false;
-persistent = true;
-
-
-
+// Evento Create
+persistent = true; // Garante que o objeto se mantenha entre as rooms

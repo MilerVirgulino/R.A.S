@@ -1,4 +1,3 @@
-
-if global.chave=true{
-instance_destroy();
+if (global.chave) {
+    instance_destroy();
 }

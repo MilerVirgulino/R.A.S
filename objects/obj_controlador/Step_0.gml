@@ -1,4 +1,4 @@
-// Objeto: obj_controlador - Evento Step
+// Evento Step
 if (global.parede) {
     if (instance_exists(obj_vocenaopassara)) {
         instance_destroy(obj_vocenaopassara);
@@ -6,13 +6,9 @@ if (global.parede) {
     }
 }
 
-if (global.chave){
-if(instance_exists(obj_chave)){
-instance_destroy(obj_chave);
-show_debug_message("Chave destruida");
-
-}
-
-
-
+if (global.chave) {
+    if (instance_exists(obj_chave)) {
+        instance_destroy(obj_chave);
+        show_debug_message("Chave destruída");
+    }
 }

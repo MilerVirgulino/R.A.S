@@ -337,8 +337,7 @@ if place_meeting(x,y, obj_cutprofessora){
 	y=390;
 	room_goto(room_cutscene2)
 }
-global.chave=false;
-global.parede=false;
+
 
 // interação com a bateria do peugeot
 // Personagem - Evento Step
