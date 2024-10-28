@@ -56,24 +56,33 @@ if (tecla_baixo_solta){
 
 //colisão a partir daqui
 //colisão horizontal
-if (place_meeting(x + hspd, y, obj_block) || place_meeting(x + hspd, y, obj_falecomprofessor)) {
-        while (!place_meeting(x + sign(hspd), y, obj_block) && 
-               !place_meeting(x + sign(hspd), y, obj_falecomprofessor)) {
-            x += sign(hspd);
-        }
-        hspd = 0;
+// Colisões Horizontais
+if (place_meeting(x + hspd, y, obj_block) || 
+    place_meeting(x + hspd, y, obj_falecomprofessor) || 
+    place_meeting(x + hspd, y, obj_vocenaopassara)) {
+    
+    while (!place_meeting(x + sign(hspd), y, obj_block) && 
+           !place_meeting(x + sign(hspd), y, obj_falecomprofessor) &&
+           !place_meeting(x + sign(hspd), y, obj_vocenaopassara)) {
+        x += sign(hspd);
     }
-    x += hspd;
+    hspd = 0; // Para parar o movimento horizontal
+}
+x += hspd; // Atualiza a posição horizontal
 
-    // Colisões Verticais
-    if (place_meeting(x, y + vspd, obj_block) || place_meeting(x, y + vspd, obj_falecomprofessor)) {
-        while (!place_meeting(x, y + sign(vspd), obj_block) && 
-               !place_meeting(x, y + sign(vspd), obj_falecomprofessor)) {
-            y += sign(vspd);
-        }
-        vspd = 0;
+// Colisões Verticais
+if (place_meeting(x, y + vspd, obj_block) || 
+    place_meeting(x, y + vspd, obj_falecomprofessor) || 
+    place_meeting(x, y + vspd, obj_vocenaopassara)) {
+    
+    while (!place_meeting(x, y + sign(vspd), obj_block) && 
+           !place_meeting(x, y + sign(vspd), obj_falecomprofessor) &&
+           !place_meeting(x, y + sign(vspd), obj_vocenaopassara)) {
+        y += sign(vspd);
     }
-    y += vspd;
+    vspd = 0; // Para parar o movimento vertical
+}
+y += vspd; // Atualiza a posição vertical
 }
 
 if keyboard_check(ord("R")){

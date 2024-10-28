@@ -13,8 +13,8 @@
     "path":"folders/Objetos/portas.yy",
   },
   "parentObjectId":{
-    "name":"obj_block",
-    "path":"objects/obj_block/obj_block.yy",
+    "name":"obj_objetos_com_dialogo",
+    "path":"objects/obj_objetos_com_dialogo/obj_objetos_com_dialogo.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -38,5 +38,5 @@
     "path":"sprites/spr_floor/spr_floor.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

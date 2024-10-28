@@ -130,6 +130,12 @@ function scr_textos(npc_nome) {
 		t[3]="O professor pediu para não demorar...";
 		break;
 		
+		case "escada":
+		t[0]="Está muito escuro para descer..."
+		t[1]="O iterruputor não funciona..."
+		t[2]="Preciso encontrar uma forma de resurar a energia";
+		break
+		
 		case "pare":
 		t[0]="Deveria falar com a professora antes";
 		break;

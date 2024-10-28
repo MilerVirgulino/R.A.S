@@ -32,5 +32,5 @@
     "path":"sprites/spr_parede/spr_parede.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

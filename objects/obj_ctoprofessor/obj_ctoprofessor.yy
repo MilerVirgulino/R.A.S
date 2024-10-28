@@ -32,5 +32,5 @@
     "path":"sprites/Sprite57/Sprite57.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
