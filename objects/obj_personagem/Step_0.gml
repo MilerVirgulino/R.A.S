@@ -219,25 +219,28 @@ if place_meeting(x,y,obj_professortoc){
 	y = 316
 }
 
-if place_meeting (x, y, obj_stoc){
-	room_goto(room_corredor)
-}
+
 
 if place_meeting(x,y, obj_tptoinvert){
 	room_goto(room_corredorminvert)
 }
 
 if place_meeting(x, y, obj_cto9invert){
+	x=460;
+	y=430;
 	room_goto(room_9anonormalinvert)
 }
 
 if place_meeting(x, y, obj_9tocinvert){
-	room_goto(room_corredorinverprincipal)
 	x = 471
 	y = 384
+	room_goto(room_corredorinverprincipal)
+	
 }
 
 if place_meeting(x,y, obj_cto6){
+	x=370;
+	y=420;
 	room_goto(room_6anoinv)
 }
 
@@ -248,6 +251,8 @@ if place_meeting(x,y, obj_6toc){
 }
 
 if place_meeting(x,y, obj_cto7){
+	x=380
+	y=420
 	room_goto(room_7anoinv)
 }
 
@@ -258,8 +263,16 @@ if place_meeting(x,y, obj_7toc){
 }
 
 if place_meeting(x,y, obj_cto8){
+	x=370
+	y=420
 	room_goto(room_8anoinv)
 }
+
+if place_meeting(x,y,obj_cto1serie){
+	x=610
+	y=455
+	room_goto(room_1EMinvertido)
+	}
 
 if place_meeting(x,y, obj_8toc){
 	room_goto(room_corredorinverprincipal)
@@ -268,11 +281,13 @@ if place_meeting(x,y, obj_8toc){
 }
 
 if place_meeting(x,y, obj_ctoprofessor){
+	x=400
+	y=150
 	room_goto(room_saladosprofessoresinv)
 }
 
 if place_meeting(x,y, obj_1serietoc){
-	room_goto(room_1EMinvertido)
+	room_goto(room_corredorinverprincipal)
 	x = 539
 	y = 179
 }
@@ -282,11 +297,15 @@ if place_meeting(x,y, obj_cto1serie){
 }
 
 if place_meeting(x,y, obj_mundonormaltoinvert){
+	x=320;
+	y=70;
 	room_goto(room_cutscene4)
 }
 
 if place_meeting(x,y, obj_cutprofessora){
 	global.professor = 1
+	x=490;
+	y=390;
 	room_goto(room_cutscene2)
 }
 

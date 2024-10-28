@@ -11,7 +11,6 @@
     {"name":"inst_68A12066","path":"rooms/room_saladosprofessoresinv/room_saladosprofessoresinv.yy",},
     {"name":"inst_1CD8954","path":"rooms/room_saladosprofessoresinv/room_saladosprofessoresinv.yy",},
     {"name":"inst_B63D7A1","path":"rooms/room_saladosprofessoresinv/room_saladosprofessoresinv.yy",},
-    {"name":"inst_270AFEE8","path":"rooms/room_saladosprofessoresinv/room_saladosprofessoresinv.yy",},
     {"name":"inst_1416DEB9","path":"rooms/room_saladosprofessoresinv/room_saladosprofessoresinv.yy",},
     {"name":"inst_48BB9ED1","path":"rooms/room_saladosprofessoresinv/room_saladosprofessoresinv.yy",},
     {"name":"inst_1F0AD40D","path":"rooms/room_saladosprofessoresinv/room_saladosprofessoresinv.yy",},
@@ -30,7 +29,6 @@
       ],"layers":[],"name":"colisoes","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"entidades","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_B63D7A1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_B63D7A1","objectId":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":823.0,"y":215.0,},
-        {"$GMRInstance":"v1","%Name":"inst_270AFEE8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_270AFEE8","objectId":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":404.0,"y":149.0,},
       ],"layers":[],"name":"entidades","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"blood","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_266C3F14","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_266C3F14","objectId":{"name":"obj_fuja","path":"objects/obj_fuja/obj_fuja.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":128.0,},

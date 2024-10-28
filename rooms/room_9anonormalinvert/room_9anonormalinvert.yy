@@ -13,7 +13,6 @@
     {"name":"inst_E394F_1","path":"rooms/room_9anonormalinvert/room_9anonormalinvert.yy",},
     {"name":"inst_1046EDDF_1","path":"rooms/room_9anonormalinvert/room_9anonormalinvert.yy",},
     {"name":"inst_389B11E8_1","path":"rooms/room_9anonormalinvert/room_9anonormalinvert.yy",},
-    {"name":"inst_790D7FD7_1","path":"rooms/room_9anonormalinvert/room_9anonormalinvert.yy",},
     {"name":"inst_25697E2C_1","path":"rooms/room_9anonormalinvert/room_9anonormalinvert.yy",},
     {"name":"inst_7BB7CF07_1","path":"rooms/room_9anonormalinvert/room_9anonormalinvert.yy",},
     {"name":"inst_48135944_1","path":"rooms/room_9anonormalinvert/room_9anonormalinvert.yy",},
@@ -66,7 +65,6 @@
         {"$GMRInstance":"v1","%Name":"inst_21E28E5F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_21E28E5F","objectId":{"name":"obj_9tocinvert","path":"objects/obj_9tocinvert/obj_9tocinvert.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.53125,"scaleY":0.65625,"x":442.0,"y":470.0,},
       ],"layers":[],"name":"colisoes","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"entidades","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_790D7FD7_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_790D7FD7_1","objectId":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":458.0,"y":418.0,},
         {"$GMRInstance":"v1","%Name":"inst_1BE8345F_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1BE8345F_1","objectId":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":695.0,"y":456.0,},
       ],"layers":[],"name":"entidades","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"mobilia","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

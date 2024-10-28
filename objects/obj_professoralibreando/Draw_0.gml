@@ -8,4 +8,5 @@ if (video_status == 0) {
 
 if video_status{
 	room_goto(room_game)
+	
 }
