@@ -12,10 +12,7 @@
     "name":"objetos dos personagens",
     "path":"folders/objetos dos personagens.yy",
   },
-  "parentObjectId":{
-    "name":"obj_objetos_com_dialogo",
-    "path":"objects/obj_objetos_com_dialogo/obj_objetos_com_dialogo.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

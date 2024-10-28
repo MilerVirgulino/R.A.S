@@ -213,6 +213,12 @@ if (distance_to_object(obj_objetos_com_dialogo) <= 0.1) {
 
 // teleportes
 
+if place_meeting(x,y,obj_professortoc){
+	room_goto(room_corredorinverprincipal)
+	x = 539
+	y = 316
+}
+
 if place_meeting (x, y, obj_stoc){
 	room_goto(room_corredor)
 }
@@ -227,6 +233,8 @@ if place_meeting(x, y, obj_cto9invert){
 
 if place_meeting(x, y, obj_9tocinvert){
 	room_goto(room_corredorinverprincipal)
+	x = 471
+	y = 384
 }
 
 if place_meeting(x,y, obj_cto6){
@@ -235,6 +243,8 @@ if place_meeting(x,y, obj_cto6){
 
 if place_meeting(x,y, obj_6toc){
 	room_goto(room_corredorinverprincipal)
+	x = 533
+	y = 451
 }
 
 if place_meeting(x,y, obj_cto7){
@@ -243,6 +253,8 @@ if place_meeting(x,y, obj_cto7){
 
 if place_meeting(x,y, obj_7toc){
 	room_goto(room_corredorinverprincipal)
+	obj_personagem.x = 539
+	obj_personagem.y = 621
 }
 
 if place_meeting(x,y, obj_cto8){
@@ -251,6 +263,8 @@ if place_meeting(x,y, obj_cto8){
 
 if place_meeting(x,y, obj_8toc){
 	room_goto(room_corredorinverprincipal)
+	x = 504
+	y = 645
 }
 
 if place_meeting(x,y, obj_ctoprofessor){
@@ -259,6 +273,8 @@ if place_meeting(x,y, obj_ctoprofessor){
 
 if place_meeting(x,y, obj_1serietoc){
 	room_goto(room_1EMinvertido)
+	x = 539
+	y = 179
 }
 
 if place_meeting(x,y, obj_cto1serie){
@@ -266,7 +282,7 @@ if place_meeting(x,y, obj_cto1serie){
 }
 
 if place_meeting(x,y, obj_mundonormaltoinvert){
-	room_goto(room_corredorminvert)
+	room_goto(room_cutscene4)
 }
 
 if place_meeting(x,y, obj_cutprofessora){
