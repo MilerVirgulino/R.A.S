@@ -28,6 +28,10 @@
   "ResourceOrderSettings":[
     {"name":"fnt_dialogo","order":1,"path":"fonts/fnt_dialogo/fnt_dialogo.yy",},
     {"name":"background","order":5,"path":"objects/background/background.yy",},
+    {"name":"carta_2","order":4,"path":"objects/carta_2/carta_2.yy",},
+    {"name":"carta_3","order":5,"path":"objects/carta_3/carta_3.yy",},
+    {"name":"carta_4","order":6,"path":"objects/carta_4/carta_4.yy",},
+    {"name":"carta_5","order":7,"path":"objects/carta_5/carta_5.yy",},
     {"name":"desk","order":1,"path":"objects/desk/desk.yy",},
     {"name":"menu_controller","order":2,"path":"objects/menu_controller/menu_controller.yy",},
     {"name":"npc2","order":1,"path":"objects/npc2/npc2.yy",},

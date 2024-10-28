@@ -83,6 +83,48 @@ function scr_textos(npc_nome) {
 			t[14] = "Mas se você está lendo isso,";
 			t[15] = "fuja. Fuja enquanto ainda pode.";
 			break;
+			
+			case "carta 2":
+			t[0] = "Uma carta misteriosa...";
+			t[1] = "\"O espelho me trouxe aqui... \".";
+			t[2] = "\"Tenho certeza disto... \".";
+			t[3] = "\"Acredito que ele pode me levar de volta... \".";
+			t[4] = "\"Mas ele está quebrado...\".";
+			t[5] = "\"Quando olho através dele... Posso ver alguns alunos passando\".";
+			t[6] = "\"Talvez a sua contraparte esteja inteira...\".";
+			t[7] = "\"A escola colocou outro espelho semelhante no banheiro do piso inferior\".";
+			t[8] = "\"Talvez seja a minha forma de sair daqui...\".";
+			
+			break;
+			
+			case "carta 3":
+			t[0] = "Uma carta misteriosa...";
+			t[1] = "\"A escada esta escura... \".";
+			t[2] = "\"Não me atrevo a descer ali... \".";
+			t[3] = "\"Posso escutar alguns grunhidos vindos do piso inferior\".";
+			t[4] = "\"Talvez se eu conseguisse religar a energia...\".";
+			
+			break;
+			
+			case "carta 4":
+			t[0] = "Uma carta misteriosa...";
+			t[1] = "\"Certa vez, ouvir o professor Miler falar sobre disjuntores\".";
+			t[2] = "\"São mecanimos de segurança que ligam e desligam a energia de uma área \".";
+			t[3] = "\"Talvez se eu encontrar o disjuntor, posso restabelecer a energia da escada\".";
+			break
+			
+			case "carta 5":
+			t[0] = "Uma carta misteriosa...";
+			t[1] = "\"Não adianta...\".";
+			t[2] = "\"Sempre que eu religo o disjuntor, alguma coisa a desliga quando tento acessar a escada \".";
+			t[3] = "\"Achei que ela poderia estar entrando na sala do 8o ano quando viro as costas\".";
+			t[4] = "\"Então encontrei a chave da sala no escritório da coordenação...\".";
+			t[5] = "\"Tranquei a porta e escondi a chave na porta-celular da sala do 9o ano\".";
+			t[6] = "\"Não quero carregar nada deste mundo comigo...\".";
+			break
+			
+			
+			
 		
 		case "Miler":
 			t[0]="Você quer ir ao banheiro?";
