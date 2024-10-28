@@ -1,27 +1,27 @@
 {
   "$GMSprite":"",
-  "%Name":"quadro_em_branco_9",
-  "bboxMode":2,
-  "bbox_bottom":406,
-  "bbox_left":2,
-  "bbox_right":597,
-  "bbox_top":51,
+  "%Name":"Sprite81",
+  "bboxMode":0,
+  "bbox_bottom":750,
+  "bbox_left":79,
+  "bbox_right":756,
+  "bbox_top":91,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"539a039e-186f-4343-9311-dca9bf550de9","name":"539a039e-186f-4343-9311-dca9bf550de9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"77022148-518c-41c7-82c6-c838ea7f54a6","name":"77022148-518c-41c7-82c6-c838ea7f54a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":351,
+  "height":819,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"5a2a2ff4-3620-42f6-86bc-ba4b9d4dedae","blendMode":0,"displayName":"default","isLocked":false,"name":"5a2a2ff4-3620-42f6-86bc-ba4b9d4dedae","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"50db57ac-531b-4655-b3eb-08863fa52d8e","blendMode":0,"displayName":"default","isLocked":false,"name":"50db57ac-531b-4655-b3eb-08863fa52d8e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"quadro_em_branco_9",
+  "name":"Sprite81",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"quadro_em_branco_9",
+    "%Name":"Sprite81",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"quadro_em_branco_9",
+    "name":"Sprite81",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"539a039e-186f-4343-9311-dca9bf550de9","path":"sprites/quadro_em_branco_9/quadro_em_branco_9.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"20e2f8d2-ab54-49ed-a9cd-0dd0bcbee3ea","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"77022148-518c-41c7-82c6-c838ea7f54a6","path":"sprites/Sprite81/Sprite81.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"223ef8df-1c1a-4f9c-9e6d-eede353a2f29","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":600,
+  "width":819,
 }

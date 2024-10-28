@@ -87,7 +87,7 @@ if (keyboard_check_pressed(ord("T"))) {
 //Diálogos a partir daqui
 
 // Verifica a distância até o objeto com diálogo
-if (distance_to_object(obj_objetos_com_dialogo) <= 0.05) {
+if (distance_to_object(obj_objetos_com_dialogo) <= 0.5) {
     if (keyboard_check_pressed(vk_enter)) {
         // Encontra o objeto mais próximo e armazena na variável npc_
         var npc_ = instance_nearest(x, y, obj_objetos_com_dialogo);
@@ -95,9 +95,12 @@ if (distance_to_object(obj_objetos_com_dialogo) <= 0.05) {
         // Cria a instância de diálogo e atribui o nome do NPC
         var dialogo_inst = instance_create_layer(x, y, "dialogo", obj_dialogo);
         dialogo_inst.npc_nome = npc_.nome;
+		
+		
 
         // Exibe o nome do NPC no console para depuração
         show_debug_message("Interagindo com: " + npc_.nome);
+		var npn_= undefined;
 
         
         
@@ -263,8 +266,8 @@ if place_meeting(x,y, obj_7toc){
 }
 
 if place_meeting(x,y, obj_cto8){
-	x=370
-	y=420
+	x=375
+	y=385
 	room_goto(room_8anoinv)
 }
 

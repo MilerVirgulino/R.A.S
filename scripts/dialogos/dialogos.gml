@@ -16,6 +16,31 @@ function scr_textos(npc_nome) {
 
 			break
 			
+		case "Quadro Negro 8 ano":
+			t[0]="Parece feito com sangue...";
+			t[1]= "Não parece fresco";
+			t[2]= "Parece indicar uma direção";
+			break
+			
+		case "computador invertida":
+			t[0]="Não posso pedir ajuda com isso...";
+			t[1]="Não funciona";
+			break;
+			
+		case "Quadro Negro 9ano":
+			t[0]="\"Fuja\""
+			t[1]="Parece escrito com sangue..."
+			t[2]="..."
+			t[3]="Parece seco...";
+			t[4]="O que está acontecendo aqui?"
+			break;
+			
+		case "Quadro Negro 1 serie":
+			t[0]="\"ESPELHO\""
+			t[1]="Deve estar se referindo ao espelho estranho..."
+			t[2]="Será que foi aquilo que me trouxe aqui?"
+			break;
+			
         case "Quadro Negro":
             t[0] = "O quadro mostra um exercício"
 			t[1]= "Um bloco que desce uma rampa com atrito...";
@@ -28,6 +53,17 @@ function scr_textos(npc_nome) {
             t[2] = "Melhor não mexer nisso.";
             t[3] = "Não quero me encrencar.";
             break;
+			
+		case "antes do jumpscare":
+			t[0]= "Oque aconteceu...?"
+			t[1]= "O que aconteceu com as luzes?."
+			t[2]= "Estão fracas..."
+			t[3]= "Não é apenas isso..."
+			t[4]= "O chão... As paredes..."
+			t[5]= "Mudaram de cor?"
+			t[6]= "Definitivamente, parece outro lugar..."
+			t[7]= "Não... Tenho certeza que ainda estou na escola..."
+			break
 			
 		case "carta 1":
 			t[0] = "Uma carta misteriosa...";
@@ -104,9 +140,7 @@ function scr_textos(npc_nome) {
 		
 		case "personagem":
 	    t[0] = "VOCÊ - - Com licença, professora...";
-	    t[1] = "VOCÊ - - Eu poderia ir ao banheiro?";
-		t[2] = "PROFESSORA - - Claro, mas não demore";
-		t[3] = "PROFESSORA - - Temos muito que ver ainda";
+	   
 	    break;
 
 

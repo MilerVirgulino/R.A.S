@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_block",
+  "%Name":"obj_porta_invertida",
   "eventList":[],
   "managed":true,
-  "name":"obj_block",
+  "name":"obj_porta_invertida",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game First Class",
-    "path":"Game First Class.yyp",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"Sprite81",
+    "path":"sprites/Sprite81/Sprite81.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
