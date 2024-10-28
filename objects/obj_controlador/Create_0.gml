@@ -2,7 +2,7 @@
 global.parede = false;
 persistent = true;
 global.chave=false;
-
+persistent = true;
 
 
 

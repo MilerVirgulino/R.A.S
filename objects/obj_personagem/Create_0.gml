@@ -17,5 +17,5 @@ if(global.player==2){
 }
 
 global.parede = 0;
-global.chave=0;
+global.chave = 0;
 

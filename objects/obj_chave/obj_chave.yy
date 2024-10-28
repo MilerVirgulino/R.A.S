@@ -16,7 +16,7 @@
     "name":"obj_objetos_com_dialogo",
     "path":"objects/obj_objetos_com_dialogo/obj_objetos_com_dialogo.yy",
   },
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -32,7 +32,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"Sprite84",
     "path":"sprites/Sprite84/Sprite84.yy",

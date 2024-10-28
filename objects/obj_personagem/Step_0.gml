@@ -180,24 +180,37 @@ if (tecla_baixo_solta){
 
 //colisão a partir daqui
 //colisão horizontal
-if (place_meeting(x + hspd, y, obj_block) || place_meeting(x + hspd, y, obj_falecomprofessor)) {
-        while (!place_meeting(x + sign(hspd), y, obj_block) && 
-               !place_meeting(x + sign(hspd), y, obj_falecomprofessor)) {
-            x += sign(hspd);
-        }
-        hspd = 0;
+// Colisões Horizontais
+if (place_meeting(x + hspd, y, obj_block) || 
+    place_meeting(x + hspd, y, obj_falecomprofessor) || 
+    place_meeting(x + hspd, y, obj_vocenaopassara))||
+	place_meeting(x + hspd, y, obj_chave){
+    
+    while (!place_meeting(x + sign(hspd), y, obj_block) && 
+           !place_meeting(x + sign(hspd), y, obj_falecomprofessor) &&
+           !place_meeting(x + sign(hspd), y, obj_vocenaopassara))&&
+		   !place_meeting(x + sign(hspd), y, obj_chave){
+        x += sign(hspd);
     }
-    x += hspd;
+    hspd = 0; // Para parar o movimento horizontal
+}
+x += hspd; // Atualiza a posição horizontal
 
-    // Colisões Verticais
-    if (place_meeting(x, y + vspd, obj_block) || place_meeting(x, y + vspd, obj_falecomprofessor)) {
-        while (!place_meeting(x, y + sign(vspd), obj_block) && 
-               !place_meeting(x, y + sign(vspd), obj_falecomprofessor)) {
-            y += sign(vspd);
-        }
-        vspd = 0;
+// Colisões Verticais
+if (place_meeting(x, y + vspd, obj_block) || 
+    place_meeting(x, y + vspd, obj_falecomprofessor) || 
+    place_meeting(x, y + vspd, obj_vocenaopassara)||
+	place_meeting(x, y + vspd, obj_chave)) {
+    
+    while (!place_meeting(x, y + sign(vspd), obj_block) && 
+           !place_meeting(x, y + sign(vspd), obj_falecomprofessor) &&
+           !place_meeting(x, y + sign(vspd), obj_vocenaopassara)&&
+		   !place_meeting(x, y + sign(vspd), obj_chave)) {
+        y += sign(vspd);
     }
-    y += vspd;
+    vspd = 0; // Para parar o movimento vertical
+}
+y += vspd; // Atualiza a posição vertical
 }
 
 //Coloquei para testar a seleção, tipo uma devs room
@@ -342,8 +355,7 @@ if (place_meeting(x, y, obj_porta_celular)) {
     if (keyboard_check_pressed(vk_enter)) {
 		show_debug_message("porta celular")
         global.chave = true;
-        
-
+				      
        
     }
 }
