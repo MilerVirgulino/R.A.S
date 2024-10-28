@@ -5,3 +5,14 @@ if (global.parede) {
         show_debug_message("Parede destruída");
     }
 }
+
+if (global.chave){
+if(instance_exists(obj_chave)){
+instance_destroy(obj_chave);
+show_debug_message("Chave destruida");
+
+}
+
+
+
+}

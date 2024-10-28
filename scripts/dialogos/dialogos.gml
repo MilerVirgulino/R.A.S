@@ -123,6 +123,16 @@ function scr_textos(npc_nome) {
 			t[6] = "\"Não quero carregar nada deste mundo comigo...\".";
 			break
 			
+			case "porta celular":
+			t[0] = "O porta celular da sala..."
+			t[1] ="Tem algo aqui...";
+			t[2] = "\"Você encontrou uma chave\""
+			break
+			
+			case "chave":
+			t[0]="Está trancada";
+			break;
+			
 			
 			
 		

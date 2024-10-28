@@ -47,6 +47,7 @@
     {"name":"obj_bateriadopeugeot","order":1,"path":"objects/obj_bateriadopeugeot/obj_bateriadopeugeot.yy",},
     {"name":"obj_block","order":15,"path":"objects/obj_block/obj_block.yy",},
     {"name":"obj_camera","order":6,"path":"objects/obj_camera/obj_camera.yy",},
+    {"name":"obj_chave","order":24,"path":"objects/obj_chave/obj_chave.yy",},
     {"name":"obj_controlador","order":19,"path":"objects/obj_controlador/obj_controlador.yy",},
     {"name":"obj_cto1serie","order":20,"path":"objects/obj_cto1serie/obj_cto1serie.yy",},
     {"name":"obj_cto6","order":13,"path":"objects/obj_cto6/obj_cto6.yy",},
@@ -74,6 +75,7 @@
     {"name":"obj_paredemundoinvertido","order":13,"path":"objects/obj_paredemundoinvertido/obj_paredemundoinvertido.yy",},
     {"name":"obj_personagem","order":2,"path":"objects/obj_personagem/obj_personagem.yy",},
     {"name":"obj_pia","order":8,"path":"objects/obj_pia/obj_pia.yy",},
+    {"name":"obj_porta_celular","order":8,"path":"objects/obj_porta_celular/obj_porta_celular.yy",},
     {"name":"obj_porta_invertida","order":22,"path":"objects/obj_porta_invertida/obj_porta_invertida.yy",},
     {"name":"obj_professoralibreando","order":1,"path":"objects/obj_professoralibreando/obj_professoralibreando.yy",},
     {"name":"obj_professortoc","order":12,"path":"objects/obj_professortoc/obj_professortoc.yy",},
@@ -196,6 +198,7 @@
     {"name":"Sprite76","order":52,"path":"sprites/Sprite76/Sprite76.yy",},
     {"name":"Sprite79","order":11,"path":"sprites/Sprite79/Sprite79.yy",},
     {"name":"Sprite81","order":56,"path":"sprites/Sprite81/Sprite81.yy",},
+    {"name":"Sprite84","order":16,"path":"sprites/Sprite84/Sprite84.yy",},
     {"name":"tilesmundoinvertido","order":1,"path":"tilesets/tilesmundoinvertido/tilesmundoinvertido.yy",},
   ],
 }

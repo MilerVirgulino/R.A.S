@@ -59,11 +59,13 @@ if (tecla_baixo_solta){
 // Colisões Horizontais
 if (place_meeting(x + hspd, y, obj_block) || 
     place_meeting(x + hspd, y, obj_falecomprofessor) || 
-    place_meeting(x + hspd, y, obj_vocenaopassara)) {
+    place_meeting(x + hspd, y, obj_vocenaopassara))||
+	place_meeting(x + hspd, y, obj_chave){
     
     while (!place_meeting(x + sign(hspd), y, obj_block) && 
            !place_meeting(x + sign(hspd), y, obj_falecomprofessor) &&
-           !place_meeting(x + sign(hspd), y, obj_vocenaopassara)) {
+           !place_meeting(x + sign(hspd), y, obj_vocenaopassara))&&
+		   !place_meeting(x + sign(hspd), y, obj_chave){
         x += sign(hspd);
     }
     hspd = 0; // Para parar o movimento horizontal
@@ -73,11 +75,13 @@ x += hspd; // Atualiza a posição horizontal
 // Colisões Verticais
 if (place_meeting(x, y + vspd, obj_block) || 
     place_meeting(x, y + vspd, obj_falecomprofessor) || 
-    place_meeting(x, y + vspd, obj_vocenaopassara)) {
+    place_meeting(x, y + vspd, obj_vocenaopassara)||
+	place_meeting(x, y + vspd, obj_chave)) {
     
     while (!place_meeting(x, y + sign(vspd), obj_block) && 
            !place_meeting(x, y + sign(vspd), obj_falecomprofessor) &&
-           !place_meeting(x, y + sign(vspd), obj_vocenaopassara)) {
+           !place_meeting(x, y + sign(vspd), obj_vocenaopassara)&&
+		   !place_meeting(x, y + sign(vspd), obj_chave)) {
         y += sign(vspd);
     }
     vspd = 0; // Para parar o movimento vertical
@@ -108,7 +112,7 @@ if (distance_to_object(obj_objetos_com_dialogo) <= 0.5) {
 		
 
         // Exibe o nome do NPC no console para depuração
-        show_debug_message("Interagindo com: " + npc_.nome);
+       
 		var npn_= undefined;
 
         
@@ -215,8 +219,8 @@ if (distance_to_object(obj_objetos_com_dialogo) <= 0.1) {
         var dialogo_inst = instance_create_layer(x, y, "dialogo", obj_dialogo);
         dialogo_inst.npc_nome = npc_.nome;
 
-        // Exibe o nome do NPC no console para depuração
-        show_debug_message("Interagindo com: " + npc_.nome);
+      
+        
 
         
         
@@ -320,7 +324,7 @@ if place_meeting(x,y, obj_cutprofessora){
 	y=390;
 	room_goto(room_cutscene2)
 }
-
+global.chave=false;
 global.parede=false;
 
 // interação com a bateria do peugeot
@@ -328,9 +332,19 @@ global.parede=false;
 if (place_meeting(x, y, obj_bateriadopeugeot)) {
     if (keyboard_check_pressed(vk_enter)) {
         global.parede = true;
-        show_debug_message("Interagiu com obj_bateriadopeugeot");
+       
 
         instance_destroy(obj_bateriadopeugeot); // Destruir objeto após interação
+    }
+}
+
+if (place_meeting(x, y, obj_porta_celular)) {
+    if (keyboard_check_pressed(vk_enter)) {
+		show_debug_message("porta celular")
+        global.chave = true;
+        
+
+       
     }
 }
 
