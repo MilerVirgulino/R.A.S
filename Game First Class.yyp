@@ -11,9 +11,9 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Conjuntos de tiles","folderPath":"folders/Conjuntos de tiles.yy","name":"Conjuntos de tiles","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Cutscene abrindooszoi","folderPath":"folders/Cutscene abrindooszoi.yy","name":"Cutscene abrindooszoi","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"cutscene espelho","folderPath":"folders/cutscene espelho.yy","name":"cutscene espelho","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fontes","folderPath":"folders/Fontes.yy","name":"Fontes","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Cutscene abrindooszoi","folderPath":"folders/Cutscene abrindooszoi.yy","name":"Cutscene abrindooszoi","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Jumpscare","folderPath":"folders/Jumpscare.yy","name":"Jumpscare","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Obj_cutscene","folderPath":"folders/Obj_cutscene.yy","name":"Obj_cutscene","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Obj_menu","folderPath":"folders/Obj_menu.yy","name":"Obj_menu","resourceType":"GMFolder","resourceVersion":"2.0",},

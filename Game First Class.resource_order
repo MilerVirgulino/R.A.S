@@ -1,9 +1,9 @@
 {
   "FolderOrderSettings":[
     {"name":"Conjuntos de tiles","order":1,"path":"folders/Conjuntos de tiles.yy",},
+    {"name":"Cutscene abrindooszoi","order":9,"path":"folders/Cutscene abrindooszoi.yy",},
     {"name":"cutscene espelho","order":10,"path":"folders/cutscene espelho.yy",},
     {"name":"Fontes","order":5,"path":"folders/Fontes.yy",},
-    {"name":"Cutscene abrindooszoi","order":9,"path":"folders/Cutscene abrindooszoi.yy",},
     {"name":"Jumpscare","order":6,"path":"folders/Jumpscare.yy",},
     {"name":"Obj_cutscene","order":11,"path":"folders/Obj_cutscene.yy",},
     {"name":"Obj_menu","order":14,"path":"folders/Obj_menu.yy",},
