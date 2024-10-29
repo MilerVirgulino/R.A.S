@@ -6,6 +6,4 @@ if (video_status == 0) {
     draw_surface_stretched(surf, 0, 0, room_width, room_height);
 }
 
-if video_status{
-	room_goto(room_game)
-}
+

@@ -223,7 +223,7 @@ if keyboard_check(ord("R")){
 //Diálogos a partir daqui
 
 // Verifica a distância até o objeto com diálogo
-if (distance_to_object(obj_objetos_com_dialogo) <= 0.1) {
+if (distance_to_object(obj_objetos_com_dialogo) <= 0.5) {
     if (keyboard_check_pressed(vk_enter)) {
         // Encontra o objeto mais próximo e armazena na variável npc_
         var npc_ = instance_nearest(x, y, obj_objetos_com_dialogo);
@@ -360,5 +360,6 @@ if (place_meeting(x, y, obj_porta_celular)) {
 }
 
 	
-	
-	
+if keyboard_check_pressed(vk_numpad2){
+	spd=4
+}
