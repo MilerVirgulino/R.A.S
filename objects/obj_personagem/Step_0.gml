@@ -346,7 +346,7 @@ if (place_meeting(x, y, obj_bateriadopeugeot)) {
         global.parede = true;
        
 
-        instance_destroy(obj_bateriadopeugeot); // Destruir objeto após interação
+       
     }
 }
 

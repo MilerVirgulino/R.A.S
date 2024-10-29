@@ -38,5 +38,5 @@
     "path":"sprites/Sprite84/Sprite84.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

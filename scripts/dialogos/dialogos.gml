@@ -133,6 +133,10 @@ function scr_textos(npc_nome) {
 			t[0]="Está trancada";
 			break;
 			
+			case "disjuntor":
+			t[0]="\"Você acionou o disjuntor\"";
+			break
+			
 			
 			
 		

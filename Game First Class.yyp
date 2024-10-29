@@ -247,6 +247,8 @@
     {"id":{"name":"Sprite79","path":"sprites/Sprite79/Sprite79.yy",},},
     {"id":{"name":"Sprite81","path":"sprites/Sprite81/Sprite81.yy",},},
     {"id":{"name":"Sprite84","path":"sprites/Sprite84/Sprite84.yy",},},
+    {"id":{"name":"Sprite85","path":"sprites/Sprite85/Sprite85.yy",},},
+    {"id":{"name":"Sprite86","path":"sprites/Sprite86/Sprite86.yy",},},
     {"id":{"name":"tilesmundoinvertido","path":"tilesets/tilesmundoinvertido/tilesmundoinvertido.yy",},},
     {"id":{"name":"tilesmundonormal","path":"tilesets/tilesmundonormal/tilesmundonormal.yy",},},
   ],

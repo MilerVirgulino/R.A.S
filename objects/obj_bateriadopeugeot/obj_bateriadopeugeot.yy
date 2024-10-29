@@ -12,7 +12,10 @@
     "name":"obj_mundoinvertido",
     "path":"folders/Objetos/obj_mundonormal/obj_mundoinvertido.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_objetos_com_dialogo",
+    "path":"objects/obj_objetos_com_dialogo/obj_objetos_com_dialogo.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bateriadopeugeot",
-    "path":"sprites/spr_bateriadopeugeot/spr_bateriadopeugeot.yy",
+    "name":"Sprite86",
+    "path":"sprites/Sprite86/Sprite86.yy",
   },
   "spriteMaskId":null,
   "visible":true,
