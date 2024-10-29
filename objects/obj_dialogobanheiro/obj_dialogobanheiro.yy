@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pia",
+  "%Name":"obj_dialogobanheiro",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pia",
+  "name":"obj_dialogobanheiro",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_mundonormal",
-    "path":"folders/Objetos/obj_mundonormal.yy",
+    "name":"portas",
+    "path":"folders/Objetos/portas.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_objetos_com_dialogo",
+    "path":"objects/obj_objetos_com_dialogo/obj_objetos_com_dialogo.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,9 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_pia",
-    "path":"sprites/spr_pia/spr_pia.yy",
+    "name":"Sprite38",
+    "path":"sprites/Sprite38/Sprite38.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

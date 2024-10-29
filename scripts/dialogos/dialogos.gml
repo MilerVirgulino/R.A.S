@@ -121,13 +121,13 @@ function scr_textos(npc_nome) {
 			t[4] = "\"Então encontrei a chave da sala no escritório da coordenação...\".";
 			t[5] = "\"Tranquei a porta e escondi a chave na porta-celular da sala do 9o ano\".";
 			t[6] = "\"Não quero carregar nada deste mundo comigo...\".";
-			break
+			break;
 			
 			case "porta celular":
 			t[0] = "O porta celular da sala..."
 			t[1] ="Tem algo aqui...";
 			t[2] = "\"Você encontrou uma chave\""
-			break
+			break;
 			
 			case "chave":
 			t[0]="Está trancada";
@@ -135,7 +135,7 @@ function scr_textos(npc_nome) {
 			
 			case "disjuntor":
 			t[0]="\"Você acionou o disjuntor\"";
-			break
+			break;
 			
 			
 			
@@ -204,6 +204,11 @@ function scr_textos(npc_nome) {
 	    t[0] = "VOCÊ - - Com licença, professora...";
 	   
 	    break;
+		
+		case "banheiro":
+		t[0] = "Estou com sono"
+		t[1] = "Deveria lavar meu rosto"
+		break;
 
 
 

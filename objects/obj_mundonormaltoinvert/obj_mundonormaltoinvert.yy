@@ -32,5 +32,5 @@
     "path":"sprites/Sprite76/Sprite76.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
