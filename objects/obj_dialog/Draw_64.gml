@@ -4,13 +4,13 @@ var _guia = display_get_height();
 
 // Define a posição e cor do retângulo
 var _xx = 150;
-var _yy = _guia - 250;  // A altura do retângulo será 250px a partir da parte inferior
+var _yy = _guia + 150;  // A altura do retângulo será 250px a partir da parte inferior
 var _c = c_white;  // Cor branca para o fundo
 
 // Define a cor do retângulo e desenha o retângulo preenchido
 draw_set_color(_c);
 draw_set_font(fnt_dialogo);
-draw_rectangle(0, _yy, _guil+315, _guia, false);
+draw_rectangle(0, _yy, _guil+545, _guia, false);
 
 // Define a cor do texto para que ele seja visível
 draw_set_color(c_black);
@@ -21,7 +21,7 @@ if (is_array(dialogo_textos) && array_length(dialogo_textos) > 0) {
     var text_width = string_width(dialogo_textos[indice_texto]);
 
     // Desenha o texto centralizado na caixa de diálogo
-    draw_text_ext(_xx + ((_guil) / 2), _yy + 32, dialogo_textos[indice_texto], 16, _guil);
+    draw_text_ext(_xx + ((_guil) / 2), _yy - 100 , dialogo_textos[indice_texto], 16, _guil);
 } else {
     draw_text(_xx + 32, _yy + 32, "Nenhum texto disponível.");
 }
