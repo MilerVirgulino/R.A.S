@@ -16,7 +16,7 @@
     "name":"obj_objetos_com_dialogo",
     "path":"objects/obj_objetos_com_dialogo/obj_objetos_com_dialogo.yy",
   },
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -32,7 +32,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"spr_floor",
     "path":"sprites/spr_floor/spr_floor.yy",
