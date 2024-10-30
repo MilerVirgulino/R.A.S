@@ -34,6 +34,7 @@
     {"name":"carta_5","order":7,"path":"objects/carta_5/carta_5.yy",},
     {"name":"desk","order":1,"path":"objects/desk/desk.yy",},
     {"name":"menu_controller","order":2,"path":"objects/menu_controller/menu_controller.yy",},
+    {"name":"npc_cristovao","order":6,"path":"objects/npc_cristovao/npc_cristovao.yy",},
     {"name":"npc2","order":1,"path":"objects/npc2/npc2.yy",},
     {"name":"npc3","order":2,"path":"objects/npc3/npc3.yy",},
     {"name":"npc4","order":3,"path":"objects/npc4/npc4.yy",},
@@ -204,6 +205,7 @@
     {"name":"Sprite84","order":16,"path":"sprites/Sprite84/Sprite84.yy",},
     {"name":"Sprite85","order":10,"path":"sprites/Sprite85/Sprite85.yy",},
     {"name":"Sprite86","order":17,"path":"sprites/Sprite86/Sprite86.yy",},
+    {"name":"Sprite88","order":18,"path":"sprites/Sprite88/Sprite88.yy",},
     {"name":"tilesmundoinvertido","order":1,"path":"tilesets/tilesmundoinvertido/tilesmundoinvertido.yy",},
   ],
 }

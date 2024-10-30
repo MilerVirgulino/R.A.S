@@ -37,7 +37,7 @@ function scr_textos(npc_nome) {
 			
 		case "Quadro Negro 1 serie":
 			t[0]="\"ESPELHO\""
-			t[1]="Deve estar se referindo ao espelho estranho..."
+			t[1]="Deve estar se referindo aquele espelho estranho..."
 			t[2]="Será que foi aquilo que me trouxe aqui?"
 			break;
 			
@@ -148,7 +148,7 @@ function scr_textos(npc_nome) {
 		case "Sala dos professores":
 			t[0]="Aqui diz:";
 			t[1]= "\"Sala dos professores\"";
-			t[2]= "\"é proibido a entrada de alunos\""
+			t[2]= "\"É proibido a entrada de alunos\""
 			break;
 			
 		case "1a serie":
@@ -209,6 +209,15 @@ function scr_textos(npc_nome) {
 			t[0] = "Estou com sono"
 			t[1] = "Deveria lavar meu rosto"
 			break;
+			
+			case "cristovao":
+			t[0]="O que? Não está me reconhecendo?";
+			t[1]="Eu sou o dono desta instituição de ensino";
+			t[2]="Meu nome é Cristóvão";
+			t[3]="Há alguns dias adiquirí dois belos espelhos"
+			t[4]="Dá um ar de elegância ao ambiente, nao acha?"
+			break;
+			
 
 
 
