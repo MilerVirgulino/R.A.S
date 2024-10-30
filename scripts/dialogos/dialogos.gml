@@ -45,7 +45,7 @@ function scr_textos(npc_nome) {
             t[0] = "O quadro mostra um exercício"
 			t[1]= "Um bloco que desce uma rampa com atrito...";
             t[2] = "É uma questão bem simples.";
-            break;  // Adiciona ponto final para clareza
+            break;
 
         case "computador":
             t[0] = "Este o computador" 
@@ -133,7 +133,7 @@ function scr_textos(npc_nome) {
 			t[0]="Está trancada";
 			break;
 			
-			case "disjuntor":
+			case "dijuntor":
 			t[0]="\"Você acionou o disjuntor\"";
 			break;
 			
@@ -179,36 +179,36 @@ function scr_textos(npc_nome) {
 			
 			break;
 		
-		case "escada normal":
-		t[0]="Essa escada dá acesso ao térrio";
-		t[1]="Eu só posso descer durante o intervalo";
-		t[2]="Melhor ir logo ao banheiro!";
-		t[3]="O professor pediu para não demorar...";
-		break;
+			case "escada normal":
+			t[0]="Essa escada dá acesso ao térrio";
+			t[1]="Eu só posso descer durante o intervalo";
+			t[2]="Melhor ir logo ao banheiro!";
+			t[3]="O professor pediu para não demorar...";
+			break;
 		
-		case "escada":
-		t[0]="Está muito escuro para descer..."
-		t[1]="O iterruputor não funciona..."
-		t[2]="Preciso encontrar uma forma de resurar a energia";
-		break
+			case "escada":
+			t[0]="Está muito escuro para descer..."
+			t[1]="O iterruputor não funciona..."
+			t[2]="Preciso encontrar uma forma de resurar a energia";
+			break
 		
-		case "pare":
-		t[0]="Deveria falar com a professora antes";
-		break;
+			case "pare":
+			t[0]="Deveria falar com a professora antes";
+			break;
 		
-		case "9ano":
-		t[0]="Tenho que ir ao banheiro";
-		break;
+			case "9ano":
+			t[0]="Tenho que ir ao banheiro";
+			break;
 		
-		case "personagem":
-	    t[0] = "VOCÊ - - Com licença, professora...";
+			case "personagem":
+		    t[0] = "VOCÊ - - Com licença, professora...";
 	   
-	    break;
+		    break;
 		
-		case "banheiro":
-		t[0] = "Estou com sono"
-		t[1] = "Deveria lavar meu rosto"
-		break;
+			case "banheiro":
+			t[0] = "Estou com sono"
+			t[1] = "Deveria lavar meu rosto"
+			break;
 
 
 

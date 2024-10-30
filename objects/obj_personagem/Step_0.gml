@@ -100,7 +100,7 @@ if (keyboard_check_pressed(ord("T"))) {
 //Diálogos a partir daqui
 
 // Verifica a distância até o objeto com diálogo
-if (distance_to_object(obj_objetos_com_dialogo) <= 0.5) {
+if (distance_to_object(obj_objetos_com_dialogo) <= 0.2) {
     if (keyboard_check_pressed(vk_enter)) {
         // Encontra o objeto mais próximo e armazena na variável npc_
         var npc_ = instance_nearest(x, y, obj_objetos_com_dialogo);
@@ -108,15 +108,14 @@ if (distance_to_object(obj_objetos_com_dialogo) <= 0.5) {
         // Cria a instância de diálogo e atribui o nome do NPC
         var dialogo_inst = instance_create_layer(x, y, "dialogo", obj_dialogo);
         dialogo_inst.npc_nome = npc_.nome;
-		
-		
+        show_debug_message(npc_.nome);
 
-        // Exibe o nome do NPC no console para depuração
-       
-		var npn_= undefined;
+        // (Opcional) Zerar ou destruir a instância no final
+        
+      
 
-        
-        
+        // Zerar variável local (não é obrigatório, mas para clareza)
+        npc_ = noone;
     }
 }
 
@@ -223,7 +222,7 @@ if keyboard_check(ord("R")){
 //Diálogos a partir daqui
 
 // Verifica a distância até o objeto com diálogo
-if (distance_to_object(obj_objetos_com_dialogo) <= 0.5) {
+if (distance_to_object(obj_objetos_com_dialogo) <= 0.2) {
     if (keyboard_check_pressed(vk_enter)) {
         // Encontra o objeto mais próximo e armazena na variável npc_
         var npc_ = instance_nearest(x, y, obj_objetos_com_dialogo);
@@ -231,12 +230,14 @@ if (distance_to_object(obj_objetos_com_dialogo) <= 0.5) {
         // Cria a instância de diálogo e atribui o nome do NPC
         var dialogo_inst = instance_create_layer(x, y, "dialogo", obj_dialogo);
         dialogo_inst.npc_nome = npc_.nome;
+        show_debug_message(npc_.nome);
 
+        // (Opcional) Zerar ou destruir a instância no final
+        
       
-        
 
-        
-        
+        // Zerar variável local (não é obrigatório, mas para clareza)
+        npc_ = noone;
     }
 }
 
@@ -246,18 +247,24 @@ if place_meeting(x,y,obj_professortoc){
 	room_goto(room_corredorinverprincipal)
 	x = 539
 	y = 316
+	
+	
 }
 
 
 
 if place_meeting(x,y, obj_tptoinvert){
 	room_goto(room_corredorminvert)
+	
+	
 }
 
 if place_meeting(x, y, obj_cto9invert){
 	x=460;
 	y=430;
 	room_goto(room_9anonormalinvert)
+	
+	
 }
 
 if place_meeting(x, y, obj_9tocinvert){
@@ -265,64 +272,87 @@ if place_meeting(x, y, obj_9tocinvert){
 	y = 384
 	room_goto(room_corredorinverprincipal)
 	
+	
+	
 }
 
 if place_meeting(x,y, obj_cto6){
 	x=370;
 	y=420;
 	room_goto(room_6anoinv)
+
+	
 }
 
 if place_meeting(x,y, obj_6toc){
 	room_goto(room_corredorinverprincipal)
 	x = 533
 	y = 451
+	
+	
 }
 
 if place_meeting(x,y, obj_cto7){
 	x=380
 	y=420
 	room_goto(room_7anoinv)
+	
+	
 }
 
 if place_meeting(x,y, obj_7toc){
 	room_goto(room_corredorinverprincipal)
 	obj_personagem.x = 539
 	obj_personagem.y = 621
+	
+	
 }
 
 if place_meeting(x,y, obj_cto8){
 	x=375
 	y=385
 	room_goto(room_8anoinv)
+
+	
 }
 
 if place_meeting(x,y,obj_cto1serie){
-	x=610
-	y=455
+	x=370
+	y=460
 	room_goto(room_1EMinvertido)
+	
+	
+	
 	}
 
 if place_meeting(x,y, obj_8toc){
 	room_goto(room_corredorinverprincipal)
 	x = 504
 	y = 645
+	
+	
 }
 
 if place_meeting(x,y, obj_ctoprofessor){
 	x=400
 	y=150
 	room_goto(room_saladosprofessoresinv)
+	
+	      
 }
 
 if place_meeting(x,y, obj_1serietoc){
 	room_goto(room_corredorinverprincipal)
 	x = 539
 	y = 179
+	
+	      
 }
 
 if place_meeting(x,y, obj_cto1serie){
 	room_goto(room_corredorinverprincipal)
+	
+	        
 }
 
 if place_meeting(x,y, obj_mundonormaltoinvert){
