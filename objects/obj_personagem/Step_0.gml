@@ -114,8 +114,7 @@ if (distance_to_object(obj_objetos_com_dialogo) <= 0.2) {
         
       
 
-        // Zerar variável local (não é obrigatório, mas para clareza)
-        npc_ = noone;
+       
     }
 }
 
@@ -236,8 +235,7 @@ if (distance_to_object(obj_objetos_com_dialogo) <= 0.2) {
         
       
 
-        // Zerar variável local (não é obrigatório, mas para clareza)
-        npc_ = noone;
+       
     }
 }
 
