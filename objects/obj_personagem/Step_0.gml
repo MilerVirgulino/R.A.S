@@ -394,3 +394,18 @@ if (place_meeting(x, y, obj_porta_celular)) {
 if keyboard_check_pressed(vk_numpad2){
 	spd=4
 }
+
+var max_dist = 2; // Ajuste conforme necessário
+
+// Verifica se o objeto-alvo existe
+if (instance_exists(obj_dialogo)) {
+    // Calcula a distância entre o personagem e o objeto-alvo
+    var dist = point_distance(x, y, obj_dialogo.x, obj_dialogo.y);
+
+    // Destrói o objeto-alvo se o personagem estiver muito distante
+    if (dist > max_dist) {
+        with (obj_dialogo) {
+            instance_destroy();
+        }
+    }
+}

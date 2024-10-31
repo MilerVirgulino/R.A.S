@@ -119,7 +119,7 @@ function scr_textos(npc_nome) {
 			t[2] = "\"Sempre que eu religo o disjuntor, alguma coisa a desliga quando tento acessar a escada \".";
 			t[3] = "\"Achei que ela poderia estar entrando na sala do 8o ano quando viro as costas\".";
 			t[4] = "\"Então encontrei a chave da sala no escritório da coordenação...\".";
-			t[5] = "\"Tranquei a porta e escondi a chave na porta-celular da sala do 9o ano\".";
+			t[5] = "\"Tranquei a porta e escondi a chave no porta-celular da sala do 9o ano\".";
 			t[6] = "\"Não quero carregar nada deste mundo comigo...\".";
 			break;
 			

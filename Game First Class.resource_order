@@ -33,6 +33,7 @@
     {"name":"carta_3","order":5,"path":"objects/carta_3/carta_3.yy",},
     {"name":"carta_4","order":6,"path":"objects/carta_4/carta_4.yy",},
     {"name":"carta_5","order":7,"path":"objects/carta_5/carta_5.yy",},
+    {"name":"carta_6","order":9,"path":"objects/carta_6/carta_6.yy",},
     {"name":"desk","order":1,"path":"objects/desk/desk.yy",},
     {"name":"menu_controller","order":2,"path":"objects/menu_controller/menu_controller.yy",},
     {"name":"npc_cristovao","order":6,"path":"objects/npc_cristovao/npc_cristovao.yy",},

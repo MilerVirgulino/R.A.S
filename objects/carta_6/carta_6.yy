@@ -1,22 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"obj_vocenaopassara",
+  "%Name":"carta_6",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_vocenaopassara",
+  "name":"carta_6",
   "overriddenProperties":[],
   "parent":{
-    "name":"portas",
-    "path":"folders/Objetos/portas.yy",
+    "name":"obj_mundoinvertido",
+    "path":"folders/Objetos/obj_mundonormal/obj_mundoinvertido.yy",
   },
   "parentObjectId":{
     "name":"obj_objetos_com_dialogo",
     "path":"objects/obj_objetos_com_dialogo/obj_objetos_com_dialogo.yy",
   },
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -34,9 +34,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_floor",
-    "path":"sprites/spr_floor/spr_floor.yy",
+    "name":"Sprite48",
+    "path":"sprites/Sprite48/Sprite48.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
