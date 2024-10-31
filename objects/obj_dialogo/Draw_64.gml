@@ -21,7 +21,7 @@ if (is_array(texto) && array_length(texto) > 0) {
     var text_width = string_width(texto[pagina]);
 
     // Desenha o texto centralizado na caixa de diálogo
-    draw_text_ext(_xx + ((_guil) / 2), _yy -100, texto[pagina], 16, _guil - 64);
+    draw_text_ext(_xx + ((_guil) / 2), _yy -100, texto[pagina], 20, _guil - 64);
 } else {
     draw_text(_xx + 32, _yy + 32, "Nenhum texto disponível.");
 }
