@@ -13,7 +13,7 @@
     "path":"folders/objetos dos personagens.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -24,7 +24,12 @@
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
-  "physicsShapePoints":[],
+  "physicsShapePoints":[
+    {"x":0.0,"y":0.0,},
+    {"x":28.0,"y":0.0,},
+    {"x":28.0,"y":58.0,},
+    {"x":0.0,"y":58.0,},
+  ],
   "physicsStartAwake":true,
   "properties":[],
   "resourceType":"GMObject",
@@ -34,6 +39,9 @@
     "name":"spr_standing",
     "path":"sprites/spr_standing/spr_standing.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_standing",
+    "path":"sprites/spr_standing/spr_standing.yy",
+  },
   "visible":true,
 }

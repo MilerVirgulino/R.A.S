@@ -2,7 +2,7 @@
   "FolderOrderSettings":[
     {"name":"Conjuntos de tiles","order":1,"path":"folders/Conjuntos de tiles.yy",},
     {"name":"Cutscene abrindooszoi","order":9,"path":"folders/Cutscene abrindooszoi.yy",},
-    {"name":"cutscene espelho","order":10,"path":"folders/cutscene espelho.yy",},
+    {"name":"cutscene_mirror","order":10,"path":"folders/cutscene_mirror.yy",},
     {"name":"Fontes","order":5,"path":"folders/Fontes.yy",},
     {"name":"Jumpscare","order":6,"path":"folders/Jumpscare.yy",},
     {"name":"Obj_cutscene","order":11,"path":"folders/Obj_cutscene.yy",},
@@ -20,6 +20,7 @@
     {"name":"rooms_normais","order":8,"path":"folders/rooms_normais.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
     {"name":"Sons","order":2,"path":"folders/Sons.yy",},
+    {"name":"backgrounds","order":60,"path":"folders/Sprites/backgrounds.yy",},
     {"name":"spr personagem fem","order":9,"path":"folders/Sprites/spr personagem fem.yy",},
     {"name":"spr personagem man","order":10,"path":"folders/Sprites/spr personagem man.yy",},
     {"name":"spr Tela de seleção","order":13,"path":"folders/Sprites/spr Tela de seleção.yy",},

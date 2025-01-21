@@ -17,8 +17,8 @@
   ],
   "name":"room_cutscene4",
   "parent":{
-    "name":"cutscene espelho",
-    "path":"folders/cutscene espelho.yy",
+    "name":"cutscene_mirror",
+    "path":"folders/cutscene_mirror.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

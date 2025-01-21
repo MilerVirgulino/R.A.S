@@ -19,7 +19,7 @@
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"206b17ca-197b-482e-b63e-05e61cd9cacf","blendMode":0,"displayName":"default","isLocked":false,"name":"206b17ca-197b-482e-b63e-05e61cd9cacf","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"206b17ca-197b-482e-b63e-05e61cd9cacf","blendMode":0,"displayName":"default","isLocked":false,"name":"206b17ca-197b-482e-b63e-05e61cd9cacf","opacity":60.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Sprite62",
   "nineSlice":null,
