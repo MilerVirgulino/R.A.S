@@ -75,14 +75,12 @@
         {"$GMRInstance":"v1","%Name":"inst_6A083077","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A083077","objectId":{"name":"obj_mesadasala_invertida","path":"objects/obj_mesadasala_invertida/obj_mesadasala_invertida.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":340.0,"y":140.0,},
         {"$GMRInstance":"v1","%Name":"inst_2E6AC35B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E6AC35B","objectId":{"name":"obj_quadro1aserie","path":"objects/obj_quadro1aserie/obj_quadro1aserie.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.2,"scaleY":0.2,"x":458.0,"y":-1.0,},
       ],"layers":[],"name":"Mobilia","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":23,"SerialiseWidth":41,"TileCompressedData":[
-          -23,-2147483648,5,0,-2147483648,-2147483648,0,0,-20,-2147483648,-21,0,-22,-2147483648,1,268435462,-9,
-          1,1,6,-8,0,-22,-2147483648,1,805306373,-9,3,1,5,-8,0,-22,-2147483648,1,805306373,-9,3,1,5,-8,0,-22,-2147483648,
-          1,805306373,-9,3,1,5,-8,0,-22,-2147483648,1,1073741826,-9,3,1,5,-8,0,-22,-2147483648,1,805306373,-9,
-          3,1,5,-8,0,-22,-2147483648,1,805306373,-9,3,1,5,-8,0,-22,-2147483648,1,805306373,-9,3,1,5,-8,0,-22,-2147483648,
-          1,805306373,-9,3,1,5,-8,0,-22,-2147483648,1,4,-9,3,1,5,-8,0,-22,-2147483648,1,4,-9,3,3,5,0,0,-3,-2147483648,
-          -2,0,-23,-2147483648,1,805306376,-9,3,3,5,-2147483648,0,-28,-2147483648,1,4,-9,3,1,5,-30,-2147483648,
-          1,805306374,-9,2,1,1073741830,-308,-2147483648,
+    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":24,"TileCompressedData":[
+          -23,-2147483648,1,0,-7,-2147483648,-17,0,-9,-2147483648,1,268435462,-9,1,1,6,-4,0,-9,-2147483648,1,805306373,
+          -9,3,1,5,-4,0,-9,-2147483648,1,805306373,-9,3,1,5,-4,0,-9,-2147483648,1,805306373,-9,3,1,5,-4,0,-9,-2147483648,
+          1,1073741826,-9,3,1,5,-4,0,-9,-2147483648,1,805306373,-9,3,1,5,-4,0,-9,-2147483648,1,805306373,-9,3,
+          1,5,-4,0,-9,-2147483648,1,805306373,-9,3,1,5,-4,0,-9,-2147483648,1,805306373,-9,3,1,5,-4,0,-9,-2147483648,
+          1,4,-9,3,1,5,-4,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tilesmundoinvertido","path":"tilesets/tilesmundoinvertido/tilesmundoinvertido.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
@@ -102,10 +100,10 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":768,
+    "Height":400,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":1366,
+    "Width":800,
   },
   "sequenceId":null,
   "views":[

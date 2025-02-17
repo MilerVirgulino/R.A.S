@@ -9,5 +9,5 @@ if (video_status == 0) {
 
 // Quando o vídeo terminar, vamos para o próximo quarto
 if (video_status != 0) {
-    room_goto(room_game);  // Vai para a próxima sala, ou onde deve continuar o jogo
+    room_goto(room_select);  // Vai para a próxima sala, ou onde deve continuar o jogo
 }

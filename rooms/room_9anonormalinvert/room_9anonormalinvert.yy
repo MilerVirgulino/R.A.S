@@ -93,13 +93,10 @@
         {"$GMRInstance":"v1","%Name":"inst_9257220_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9257220_1","objectId":{"name":"obj_paredemundoinvertido","path":"objects/obj_paredemundoinvertido/obj_paredemundoinvertido.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.8437505,"scaleY":1.765625,"x":374.0,"y":57.0,},
         {"$GMRInstance":"v1","%Name":"inst_1EA5670B_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1EA5670B_1","objectId":{"name":"rodape","path":"objects/rodape/rodape.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.34375,"scaleY":1.0,"x":390.0,"y":160.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":23,"SerialiseWidth":41,"TileCompressedData":[
-          -173,-2147483648,3,0,-2147483648,268435462,-9,1,1,6,-30,-2147483648,1,4,-9,3,1,5,-30,-2147483648,1,4,
-          -9,3,1,5,-30,-2147483648,1,4,-9,3,1,5,-4,-2147483648,1,0,-25,-2147483648,1,4,-9,3,1,5,-30,-2147483648,
-          1,4,-9,3,1,5,-30,-2147483648,1,4,-9,3,1,5,-13,0,-17,-2147483648,1,4,-9,3,1,5,-16,0,-14,-2147483648,1,
-          4,-9,3,1,5,-16,0,-14,-2147483648,1,4,-9,3,1,5,-16,0,-14,-2147483648,3,805306374,2,1073741832,-7,2,1,
-          1073741830,-16,0,-22,-2147483648,-20,0,-21,-2147483648,-20,0,-22,-2147483648,-17,0,-25,-2147483648,-16,
-          0,-24,-2147483648,-17,0,-23,-2147483648,-18,0,-23,-2147483648,-20,0,-21,-2147483648,-19,0,-3,-2147483648,
+    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":24,"TileCompressedData":[
+          -105,-2147483648,3,0,-2147483648,268435462,-9,1,1,6,-13,-2147483648,1,4,-9,3,1,5,-13,-2147483648,1,4,
+          -9,3,1,5,-13,-2147483648,1,4,-9,3,1,5,-13,-2147483648,1,4,-9,3,1,5,-13,-2147483648,1,4,-9,3,1,5,-13,
+          -2147483648,1,4,-9,3,3,5,0,0,-11,-2147483648,1,4,-9,3,3,5,0,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tilesmundoinvertido","path":"tilesets/tilesmundoinvertido/tilesmundoinvertido.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"piso","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"piso","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
@@ -120,10 +117,10 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":768,
+    "Height":400,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":1366,
+    "Width":800,
   },
   "sequenceId":null,
   "views":[

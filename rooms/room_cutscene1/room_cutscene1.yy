@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"room_cutscene1",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/room_cutscene1/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -31,10 +31,10 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":1080,
+    "Height":400,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":1920,
+    "Width":800,
   },
   "sequenceId":null,
   "views":[

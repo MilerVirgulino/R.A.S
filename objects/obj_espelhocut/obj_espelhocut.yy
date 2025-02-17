@@ -11,8 +11,8 @@
   "name":"obj_espelhocut",
   "overriddenProperties":[],
   "parent":{
-    "name":"cutscene_mirror",
-    "path":"folders/cutscene_mirror.yy",
+    "name":"cutscene_espelho",
+    "path":"folders/cutscene_espelho.yy",
   },
   "parentObjectId":null,
   "persistent":false,

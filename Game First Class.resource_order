@@ -1,8 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Conjuntos de tiles","order":1,"path":"folders/Conjuntos de tiles.yy",},
-    {"name":"Cutscene abrindooszoi","order":9,"path":"folders/Cutscene abrindooszoi.yy",},
-    {"name":"cutscene_mirror","order":10,"path":"folders/cutscene_mirror.yy",},
+    {"name":"cutscene_espelho","order":10,"path":"folders/cutscene_espelho.yy",},
     {"name":"Fontes","order":5,"path":"folders/Fontes.yy",},
     {"name":"Jumpscare","order":6,"path":"folders/Jumpscare.yy",},
     {"name":"Obj_cutscene","order":11,"path":"folders/Obj_cutscene.yy",},
@@ -61,7 +60,6 @@
     {"name":"obj_ctoprofessor","order":11,"path":"objects/obj_ctoprofessor/obj_ctoprofessor.yy",},
     {"name":"obj_ctos","order":7,"path":"objects/obj_ctos/obj_ctos.yy",},
     {"name":"obj_cutprofessora","order":18,"path":"objects/obj_cutprofessora/obj_cutprofessora.yy",},
-    {"name":"obj_cutzoi","order":1,"path":"objects/obj_cutzoi/obj_cutzoi.yy",},
     {"name":"obj_dialog","order":2,"path":"objects/obj_dialog/obj_dialog.yy",},
     {"name":"obj_dialogo_inicial_mundo_invertido","order":2,"path":"objects/obj_dialogo_inicial_mundo_invertido/obj_dialogo_inicial_mundo_invertido.yy",},
     {"name":"obj_dialogo_inicial","order":21,"path":"objects/obj_dialogo_inicial/obj_dialogo_inicial.yy",},
@@ -105,6 +103,7 @@
     {"name":"obj_vocenaopassara","order":23,"path":"objects/obj_vocenaopassara/obj_vocenaopassara.yy",},
     {"name":"obj_wall","order":3,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"obj_you","order":4,"path":"objects/obj_you/obj_you.yy",},
+    {"name":"Object94","order":14,"path":"objects/Object94/Object94.yy",},
     {"name":"parede","order":2,"path":"objects/parede/parede.yy",},
     {"name":"professor","order":5,"path":"objects/professor/professor.yy",},
     {"name":"rodape","order":4,"path":"objects/rodape/rodape.yy",},
@@ -134,6 +133,7 @@
     {"name":"M_o_da_Luna","order":2,"path":"sprites/M_o_da_Luna/M_o_da_Luna.yy",},
     {"name":"M_o_do_L_o","order":3,"path":"sprites/M_o_do_L_o/M_o_do_L_o.yy",},
     {"name":"mesa","order":15,"path":"sprites/mesa/mesa.yy",},
+    {"name":"normal_corredor","order":1,"path":"sprites/normal_corredor/normal_corredor.yy",},
     {"name":"Professores","order":54,"path":"sprites/Professores/Professores.yy",},
     {"name":"quadro_8o_ano","order":57,"path":"sprites/quadro_8o_ano/quadro_8o_ano.yy",},
     {"name":"quadro_em_branco_1aserie","order":58,"path":"sprites/quadro_em_branco_1aserie/quadro_em_branco_1aserie.yy",},

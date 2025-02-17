@@ -48,17 +48,12 @@
     {"$GMRInstanceLayer":"","%Name":"Entidades","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_6437D6CD_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6437D6CD_1","objectId":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":672.0,},
       ],"layers":[],"name":"Entidades","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"estrutura","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"estrutura","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":23,"SerialiseWidth":41,"TileCompressedData":[
-          2,-2147483648,1879048198,-15,1,1,6,-4,0,-20,-2147483648,1,4,-15,3,1,5,-4,0,-20,-2147483648,1,805306376,
-          -15,3,1,5,-4,0,-20,-2147483648,1,4,-15,3,1,5,-4,0,-20,-2147483648,3,805306374,2,1073741832,-8,2,1,7,
-          -4,3,1,5,-4,0,-31,-2147483648,1,4,-4,3,5,8,-2147483648,-2147483648,0,0,-31,-2147483648,1,4,-4,3,1,5,
-          -35,-2147483648,1,4,-4,3,1,5,-35,-2147483648,1,4,-4,3,1,5,-35,-2147483648,1,4,-4,3,1,8,-35,-2147483648,
-          1,4,-4,3,1,5,-25,-2147483648,1,0,-5,-2147483648,-4,0,1,268435464,-4,3,1,5,-24,-2147483648,1,0,-6,-2147483648,
-          -4,0,1,4,-4,3,1,5,-23,-2147483648,-3,0,-2,-2147483648,-7,0,1,4,-4,3,1,8,-24,-2147483648,-3,0,1,1879048198,
-          -7,1,1,1073741831,-4,3,1,5,-24,-2147483648,-3,0,1,4,-12,3,1,5,-24,-2147483648,-3,0,1,4,-12,3,1,5,-23,
-          -2147483648,-4,0,1,4,-12,3,1,5,-24,-2147483648,-3,0,1,4,-3,3,1,1879048199,-3,2,1,7,-4,3,1,5,-24,-2147483648,
-          -4,0,-7,-2147483648,1,4,-4,3,1,5,-24,-2147483648,4,0,-2147483648,-2147483648,0,-7,-2147483648,1,4,-4,
-          3,1,5,-24,-2147483648,1,0,-10,-2147483648,6,805306374,2,1073741832,1610612744,2,536870918,-64,-2147483648,
+    {"$GMRTileLayer":"","%Name":"estrutura","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"estrutura","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":24,"TileCompressedData":[
+          2,-2147483648,1879048198,-15,1,1,6,-4,0,-3,-2147483648,1,4,-15,3,1,5,-4,0,-3,-2147483648,1,805306376,
+          -15,3,1,5,-4,0,-3,-2147483648,1,4,-15,3,1,5,-4,0,-3,-2147483648,3,805306374,2,1073741832,-8,2,1,7,-4,
+          3,1,5,-4,0,-14,-2147483648,1,4,-4,3,5,8,-2147483648,-2147483648,0,0,-14,-2147483648,1,4,-4,3,1,5,-18,
+          -2147483648,1,4,-4,3,1,5,-18,-2147483648,1,4,-4,3,1,5,-18,-2147483648,1,4,-4,3,1,8,-18,-2147483648,1,
+          4,-4,3,1,5,-8,-2147483648,1,0,-5,-2147483648,-4,0,1,268435464,-4,3,1,5,-6,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tilesmundoinvertido","path":"tilesets/tilesmundoinvertido/tilesmundoinvertido.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
@@ -78,10 +73,10 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":768,
+    "Height":400,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":1366,
+    "Width":800,
   },
   "sequenceId":null,
   "views":[
