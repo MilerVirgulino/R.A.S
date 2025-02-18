@@ -65,6 +65,7 @@
     {"name":"obj_dialogo_inicial","order":21,"path":"objects/obj_dialogo_inicial/obj_dialogo_inicial.yy",},
     {"name":"obj_dialogo","order":8,"path":"objects/obj_dialogo/obj_dialogo.yy",},
     {"name":"obj_dialogobanheiro","order":25,"path":"objects/obj_dialogobanheiro/obj_dialogobanheiro.yy",},
+    {"name":"obj_dialogue","order":3,"path":"objects/obj_dialogue/obj_dialogue.yy",},
     {"name":"obj_enemy","order":1,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_enemyparado","order":17,"path":"objects/obj_enemyparado/obj_enemyparado.yy",},
     {"name":"obj_escada","order":5,"path":"objects/obj_escada/obj_escada.yy",},

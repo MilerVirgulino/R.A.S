@@ -98,6 +98,7 @@
     {"id":{"name":"obj_dialogo_inicial","path":"objects/obj_dialogo_inicial/obj_dialogo_inicial.yy",},},
     {"id":{"name":"obj_dialogo","path":"objects/obj_dialogo/obj_dialogo.yy",},},
     {"id":{"name":"obj_dialogobanheiro","path":"objects/obj_dialogobanheiro/obj_dialogobanheiro.yy",},},
+    {"id":{"name":"obj_dialogue","path":"objects/obj_dialogue/obj_dialogue.yy",},},
     {"id":{"name":"obj_ellena","path":"objects/obj_ellena/obj_ellena.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_enemyparado","path":"objects/obj_enemyparado/obj_enemyparado.yy",},},

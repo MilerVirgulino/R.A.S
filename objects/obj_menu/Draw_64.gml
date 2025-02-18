@@ -18,7 +18,7 @@ for (var i = 0; i < opc_max; i++) {
     // Verificar se a opção atual é a selecionada
     if (global.index == i) {
         
-        draw_set_color(c_red);
+        draw_set_color(c_purple);
        
     }else{
 	draw_set_color(c_white)
